@@ -1,0 +1,35 @@
+@import "../modules/variables";
+
+header {
+  background-color: $header-background;
+
+  h1 {
+    color: $header-text-color;
+  }
+
+  h6 {
+    color: $header-text-color;
+    margin: 0.5rem;
+  }
+}
+
+.header-top {
+  .left {
+    text-align: left;
+    @media (max-width: $md) {
+      text-align: center;
+    }
+  }
+  .center {
+    text-align: center;
+    @media (max-width: $md) {
+      text-align: center;
+    }
+  }
+  .right {
+    text-align: right;
+    @media (max-width: $md) {
+      text-align: center;
+    }
+  }
+}
