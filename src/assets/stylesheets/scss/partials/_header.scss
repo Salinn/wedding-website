@@ -14,22 +14,9 @@ header {
 }
 
 .header-top {
-  .left {
-    text-align: left;
-    @media (max-width: $md) {
-      text-align: center;
-    }
-  }
-  .center {
-    text-align: center;
-    @media (max-width: $md) {
-      text-align: center;
-    }
-  }
-  .right {
-    text-align: right;
-    @media (max-width: $md) {
-      text-align: center;
-    }
-  }
+
+}
+
+.header-links {
+  text-align: center;
 }

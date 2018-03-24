@@ -1,3 +1,14 @@
+body, html {
+  /* The image used */
+  background-image: url("http://img1.10bestmedia.com/Images/Photos/296772/cq5dam_54_990x660.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
 header {
   background-color: #f8f9fa; }
   header h1 {
@@ -6,23 +17,11 @@ header {
     color: #003c57;
     margin: 0.5rem; }
 
-.header-top .left {
-  text-align: left; }
-  @media (max-width: 768px) {
-    .header-top .left {
-      text-align: center; } }
-
-.header-top .center {
+.header-links {
   text-align: center; }
-  @media (max-width: 768px) {
-    .header-top .center {
-      text-align: center; } }
 
-.header-top .right {
-  text-align: right; }
-  @media (max-width: 768px) {
-    .header-top .right {
-      text-align: center; } }
+.weddingHeader h2 {
+  color: #fff; }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
