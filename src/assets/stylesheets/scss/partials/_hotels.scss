@@ -1,6 +1,17 @@
+@import "../modules/variables";
+
 .carousel-photo {
   max-width: 100%;
-  width: auto;
-  height: auto;
-  vertical-align: middle;
+  @media (max-width: $xl) {
+    height: 40rem;
+  }
+  @media (max-width: $lg) {
+    height: 30rem;
+  }
+  @media (max-width: $md) {
+    height: 25rem;
+  }
+  @media (max-width: $sm) {
+    height: 15rem;
+  }
 }

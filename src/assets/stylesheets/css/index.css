@@ -20,8 +20,20 @@ header {
 .header-links {
   text-align: center; }
 
-.weddingHeader h2 {
-  color: #fff; }
+.carousel-photo {
+  max-width: 100%; }
+  @media (max-width: 1200px) {
+    .carousel-photo {
+      height: 40rem; } }
+  @media (max-width: 992px) {
+    .carousel-photo {
+      height: 30rem; } }
+  @media (max-width: 768px) {
+    .carousel-photo {
+      height: 25rem; } }
+  @media (max-width: 576px) {
+    .carousel-photo {
+      height: 15rem; } }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -6050,5 +6062,3 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-
-/*# sourceMappingURL=index.css.map */
