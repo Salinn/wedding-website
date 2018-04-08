@@ -1,6 +1,6 @@
 body, html {
   /* The image used */
-  background-image: url("https://cbschicago.files.wordpress.com/2012/06/92572872.jpg?w=800");
+  background-image: url("https://s3.amazonaws.com/paulmichelle-2019-wedding-photos/backgroundImage.png");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -21,19 +21,17 @@ header {
   text-align: center; }
 
 .carousel-photo {
-  max-width: 100%; }
-  @media (max-width: 1200px) {
-    .carousel-photo {
-      height: 40rem; } }
+  max-width: 100%;
+  height: auto; }
   @media (max-width: 992px) {
     .carousel-photo {
       height: 30rem; } }
   @media (max-width: 768px) {
     .carousel-photo {
-      height: 25rem; } }
+      height: 20rem; } }
   @media (max-width: 576px) {
     .carousel-photo {
-      height: 15rem; } }
+      height: 10rem; } }
 
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)

@@ -35,16 +35,13 @@ const Header = (props) => {
                             <a href="/hotels" className="nav-link col-auto">Places to stay</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link col-auto">Things to do</a>
+                            <a href="/activities" className="nav-link col-auto">Things to do</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link col-auto">Photos</a>
+                            <a href="/photos" className="nav-link col-auto">Photos</a>
                         </li>
                         <li className="nav-item">
                             <a href="#" className="nav-link col-auto">Registry</a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#" className="nav-link col-auto">FAQs</a>
                         </li>
                         <li className="nav-item">
                             <a href="#" className="nav-link col-auto">RSVP</a>

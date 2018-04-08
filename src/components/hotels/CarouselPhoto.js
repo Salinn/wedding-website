@@ -11,7 +11,7 @@ const CarouselPhoto = ({ image, index }) => {
 
     return (
         <div className={classes}>
-            <img className="carousel-photo" src={image} />
+            <img className="carousel-photo" src={image} alt='' />
         </div>
     );
 };

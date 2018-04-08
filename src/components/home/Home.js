@@ -7,7 +7,6 @@ const Home = ({props}) => {
 
     return (
         <div className='home-body'>
-            <img src={imgSrc} className="img-fluid" alt="Responsive image" />
             <h2>Our Story</h2>
             <h2>The proposal</h2>
         </div>

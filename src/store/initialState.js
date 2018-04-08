@@ -1,4 +1,34 @@
 export default {
+    activities: [
+        {
+            title: 'Boston Aquarium',
+            content: 'We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!',
+            photo: 'http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg',
+            website: 'http://www.neaq.org/',
+            price: '28'
+        },
+        {
+            title: 'Boston Aquarium',
+            content: 'We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!',
+            photo: 'http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg',
+            website: 'http://www.neaq.org/',
+            price: '28'
+        },
+        {
+            title: 'Boston Aquarium',
+            content: 'We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!',
+            photo: 'http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg',
+            website: 'http://www.neaq.org/',
+            price: '28'
+        },
+        {
+            title: 'Boston Aquarium',
+            content: 'We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!',
+            photo: 'http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg',
+            website: 'http://www.neaq.org/',
+            price: '28'
+        },
+    ],
     events: [
         {
             photo: 'https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0',
@@ -141,6 +171,224 @@ export default {
             content: 'This is our room block, please follow the link if you are interested in staying here with in',
         },
     ],
+    photos: [
+        {
+            image: 'https://assets.marthastewartweddings.com/styles/wmax-1500/d49/aislinn-eric-wedding-malibu-bride-groom-102896024/aislinn-eric-wedding-malibu-bride-groom-102896024_horiz.jpg?itok=2X6AtG4N',
+            caption: '',
+        },
+        {
+            image: 'https://media.brides.com/photos/5a1c369e3a5c87214f6de130/master/pass/lizzy-stone-and-chandler-brown-wedding20171106_01.JPG',
+            caption: '',
+        },
+        {
+            image: 'https://6737455825196301ef70-26c82c9028aee0c5860aa60a0bbaa4da.ssl.cf1.rackcdn.com/dxthm1000.Best-Long-Island-Wedding-Photographers-037-.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://images.pexels.com/photos/313707/pexels-photo-313707.jpeg?auto=compress&cs=tinysrgb&h=350',
+            caption: '',
+        },
+        {
+            image: 'https://assets.marthastewartweddings.com/styles/wmax-1500/d49/aislinn-eric-wedding-malibu-bride-groom-102896024/aislinn-eric-wedding-malibu-bride-groom-102896024_horiz.jpg?itok=2X6AtG4N',
+            caption: '',
+        },
+        {
+            image: 'https://media.brides.com/photos/5a1c369e3a5c87214f6de130/master/pass/lizzy-stone-and-chandler-brown-wedding20171106_01.JPG',
+            caption: '',
+        },
+        {
+            image: 'https://6737455825196301ef70-26c82c9028aee0c5860aa60a0bbaa4da.ssl.cf1.rackcdn.com/dxthm1000.Best-Long-Island-Wedding-Photographers-037-.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://images.pexels.com/photos/313707/pexels-photo-313707.jpeg?auto=compress&cs=tinysrgb&h=350',
+            caption: '',
+        },
+        {
+            image: 'https://peopledotcom.files.wordpress.com/2017/11/kate-upton2.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.oncewed.com/wp-content/uploads/2015/12/1-romantic-lace-wedding-gown-1300x1765.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://img1.southernliving.timeinc.net/sites/default/files/styles/story_card_two_thirds/public/image/2017/06/main/autumn-charleston-wedding-jophoto-kn5a9998.jpg?itok=A8gDXji4',
+            caption: '',
+        },
+        {
+            image: 'https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=350',
+            caption: '',
+        },
+        {
+            image: 'https://img1.etsystatic.com/218/1/9469340/il_340x270.1418447595_8kuw.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.levkuperman.com/wp-content/uploads/2016/12/Kayti_Jake_Wedding_444.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.hitched.co.uk/images/articles/fave-wedding-photos.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://s-i.huffpost.com/gen/2806956/images/o-WEDDING-facebook.jpg',
+            caption: '',
+        },
+        {
+            image: 'http://blog.stylishwedd.com/wp-content/uploads/2017/05/stunning-diy-floral-wedding-arch-decoration-ideas.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://gossipweddings.com/wp-content/uploads/2017/10/Small-bride-and-groom-dancing-139.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://assets.marthastewartweddings.com/styles/wmax-1500/d49/aislinn-eric-wedding-malibu-bride-groom-102896024/aislinn-eric-wedding-malibu-bride-groom-102896024_horiz.jpg?itok=2X6AtG4N',
+            caption: '',
+        },
+        {
+            image: 'https://media.brides.com/photos/5a1c369e3a5c87214f6de130/master/pass/lizzy-stone-and-chandler-brown-wedding20171106_01.JPG',
+            caption: '',
+        },
+        {
+            image: 'https://6737455825196301ef70-26c82c9028aee0c5860aa60a0bbaa4da.ssl.cf1.rackcdn.com/dxthm1000.Best-Long-Island-Wedding-Photographers-037-.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://images.pexels.com/photos/313707/pexels-photo-313707.jpeg?auto=compress&cs=tinysrgb&h=350',
+            caption: '',
+        },
+        {
+            image: 'https://peopledotcom.files.wordpress.com/2017/11/kate-upton2.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.oncewed.com/wp-content/uploads/2015/12/1-romantic-lace-wedding-gown-1300x1765.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://img1.southernliving.timeinc.net/sites/default/files/styles/story_card_two_thirds/public/image/2017/06/main/autumn-charleston-wedding-jophoto-kn5a9998.jpg?itok=A8gDXji4',
+            caption: '',
+        },
+        {
+            image: 'https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=350',
+            caption: '',
+        },
+        {
+            image: 'https://img1.etsystatic.com/218/1/9469340/il_340x270.1418447595_8kuw.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.levkuperman.com/wp-content/uploads/2016/12/Kayti_Jake_Wedding_444.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.hitched.co.uk/images/articles/fave-wedding-photos.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://s-i.huffpost.com/gen/2806956/images/o-WEDDING-facebook.jpg',
+            caption: '',
+        },
+        {
+            image: 'http://blog.stylishwedd.com/wp-content/uploads/2017/05/stunning-diy-floral-wedding-arch-decoration-ideas.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://gossipweddings.com/wp-content/uploads/2017/10/Small-bride-and-groom-dancing-139.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://media.brides.com/photos/59e7a4d31c1f6118730f1e34/master/pass/elisa-hong-and-edward-chung-wedding20171016_01.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://assets.vogue.com/photos/5a1dab699871cf3583efa544/16:9/pass/00-story-image-fei-and-lincoln-capri-wedding.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201705/pippa-middleton-wedding-groom-today-170520-tease-01.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://assets.marthastewartweddings.com/styles/wmax-520-highdpi/d44/louisa-robert-wedding-couple-61-6274642-0317/louisa-robert-wedding-couple-61-6274642-0317_vert.jpg?itok=90SeHzGx',
+            caption: '',
+        },
+        {
+            image: 'https://media.brides.com/photos/59e7a4d31c1f6118730f1e34/master/pass/elisa-hong-and-edward-chung-wedding20171016_01.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://assets.vogue.com/photos/5a1dab699871cf3583efa544/16:9/pass/00-story-image-fei-and-lincoln-capri-wedding.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201705/pippa-middleton-wedding-groom-today-170520-tease-01.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://assets.marthastewartweddings.com/styles/wmax-520-highdpi/d44/louisa-robert-wedding-couple-61-6274642-0317/louisa-robert-wedding-couple-61-6274642-0317_vert.jpg?itok=90SeHzGx',
+            caption: '',
+        },
+        {
+            image: 'https://peopledotcom.files.wordpress.com/2017/11/kate-upton2.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.oncewed.com/wp-content/uploads/2015/12/1-romantic-lace-wedding-gown-1300x1765.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://img1.southernliving.timeinc.net/sites/default/files/styles/story_card_two_thirds/public/image/2017/06/main/autumn-charleston-wedding-jophoto-kn5a9998.jpg?itok=A8gDXji4',
+            caption: '',
+        },
+        {
+            image: 'https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=350',
+            caption: '',
+        },
+        {
+            image: 'https://img1.etsystatic.com/218/1/9469340/il_340x270.1418447595_8kuw.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.levkuperman.com/wp-content/uploads/2016/12/Kayti_Jake_Wedding_444.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://www.hitched.co.uk/images/articles/fave-wedding-photos.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://s-i.huffpost.com/gen/2806956/images/o-WEDDING-facebook.jpg',
+            caption: '',
+        },
+        {
+            image: 'http://blog.stylishwedd.com/wp-content/uploads/2017/05/stunning-diy-floral-wedding-arch-decoration-ideas.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://gossipweddings.com/wp-content/uploads/2017/10/Small-bride-and-groom-dancing-139.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://media.brides.com/photos/59e7a4d31c1f6118730f1e34/master/pass/elisa-hong-and-edward-chung-wedding20171016_01.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://assets.vogue.com/photos/5a1dab699871cf3583efa544/16:9/pass/00-story-image-fei-and-lincoln-capri-wedding.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201705/pippa-middleton-wedding-groom-today-170520-tease-01.jpg',
+            caption: '',
+        },
+        {
+            image: 'https://assets.marthastewartweddings.com/styles/wmax-520-highdpi/d44/louisa-robert-wedding-couple-61-6274642-0317/louisa-robert-wedding-couple-61-6274642-0317_vert.jpg?itok=90SeHzGx',
+            caption: '',
+        },
+    ],
     weddingParty: {
         brideMaids: [
             {
@@ -217,6 +465,6 @@ export default {
                 bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
             },
         ],
-    }
+    },
 }
 

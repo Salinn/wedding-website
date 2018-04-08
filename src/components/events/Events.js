@@ -7,7 +7,8 @@ const Events = ({ events }) => {
     const eventsGenerated = events.map(event => <Event {...event} />);
 
     return (
-        <div className='container'>
+        <div className='container text-center'>
+            <h1 className='text-white'>Our wedding events</h1>
             <div className='row'>
                 { eventsGenerated }
             </div>

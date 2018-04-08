@@ -7,16 +7,14 @@ const WeddingParty = ({ weddingParty }) => {
     const bridesMaidsProfiles = weddingParty.brideMaids.map(person => <Profile {...person}/>);
     const groomsMenProfiles = weddingParty.groomsMen.map(person => <Profile {...person}/>);
     return (
-        <div className='container weddingHeader'>
+        <div className='container text-center'>
             <div className='row'>
                 <div className='col-12 col-md-6'>
-                <h2 className='text-center text-white bg-dark'>Bridesmaids</h2>
-
+                <h1 className='text-white'>Bridesmaids</h1>
                     { bridesMaidsProfiles }
                 </div>
                 <div className='col-12 col-md-6'>
-                    <h2 className='text-center text-white bg-dark'>Groomsmen</h2>
-
+                    <h1 className='text-white'>Groomsmen</h1>
                     { groomsMenProfiles }
                 </div>
             </div>

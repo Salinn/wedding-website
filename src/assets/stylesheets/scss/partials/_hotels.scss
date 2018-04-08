@@ -2,16 +2,14 @@
 
 .carousel-photo {
   max-width: 100%;
-  @media (max-width: $xl) {
-    height: 40rem;
-  }
+  height: auto;
   @media (max-width: $lg) {
     height: 30rem;
   }
   @media (max-width: $md) {
-    height: 25rem;
+    height: 20rem;
   }
   @media (max-width: $sm) {
-    height: 15rem;
+    height: 10rem;
   }
 }
