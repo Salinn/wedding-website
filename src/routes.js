@@ -6,6 +6,7 @@ import Events from './containers/Events';
 import Hotels from './containers/Hotels';
 import Activities from './containers/Activities';
 import Photos from './containers/Photos';
+import Dashboard from './containers/Dashboard';
 
 export default () => {
     return (
@@ -17,6 +18,7 @@ export default () => {
                 <Route path='/hotels' component={Hotels}/>
                 <Route path='/activities' component={Activities}/>
                 <Route path='/photos' component={Photos}/>
+                <Route path='/dashboard' component={Dashboard}/>
             </Switch>
         </BrowserRouter>
     )

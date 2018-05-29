@@ -6,13 +6,17 @@ import hotels from './HotelsReducer';
 import weddingParty from './WeddingPartyReducer';
 import activities from './ActivityReducer';
 import photos from './PhotosReducer';
+import tables from './TablesReducer';
+import dashboard from './DashboardReducer';
 
 const rootReducer = combineReducers({
     events,
     hotels,
     weddingParty,
     activities,
-    photos
+    photos,
+    tables,
+    dashboard
 });
 
 export default rootReducer;

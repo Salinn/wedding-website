@@ -1,3 +1,6 @@
+import TableImage from '../components/dashboard/main/TableImage';
+import EditRow from '../components/dashboard/main/EditRow';
+
 export default {
     activities: [
         {
@@ -31,6 +34,7 @@ export default {
     ],
     events: [
         {
+            id: 1,
             photo: 'https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0',
             date: 'January 6th',
             time: '12:30 pm to 6 pm',
@@ -42,6 +46,7 @@ export default {
             content: "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!",
         },
         {
+            id: 2,
             photo: 'https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0',
             date: 'January 6th',
             time: '12:30 pm to 6 pm',
@@ -53,6 +58,7 @@ export default {
             content: "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!",
         },
         {
+            id: 3,
             photo: 'https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0',
             date: 'January 6th',
             time: '12:30 pm to 6 pm',
@@ -64,6 +70,7 @@ export default {
             content: "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!",
         },
         {
+            id: 4,
             photo: 'https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0',
             date: 'January 6th',
             time: '12:30 pm to 6 pm',
@@ -75,6 +82,8 @@ export default {
             content: "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!",
         },
         {
+
+            id: 5,
             photo: 'https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0',
             date: 'January 6th',
             time: '12:30 pm to 6 pm',
@@ -389,82 +398,198 @@ export default {
             caption: '',
         },
     ],
-    weddingParty: {
-        brideMaids: [
-            {
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
-                name: 'Aileen Tartanian',
-                bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
-            },
-            {
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
-                name: 'Aileen Tartanian',
-                bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
-            },
-            {
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
-                name: 'Aileen Tartanian',
-                bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
-            },
-            {
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
-                name: 'Aileen Tartanian',
-                bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
-            },
-            {
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
-                name: 'Aileen Tartanian',
-                bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
-            },
-            {
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
-                name: 'Aileen Tartanian',
-                bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
-            },
-            {
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
-                name: 'Aileen Tartanian',
-                bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
-            },
+    weddingParty: [
+        {
+            id: '1',
+            type: 'bridesmaid',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
+            name: 'Aileen Tartanian',
+            bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
+        },
+        {
+            id: '2',
+            type: 'bridesmaid',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
+            name: 'Aileen Tartanian',
+            bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
+        },
+        {
+            id: '3',
+            type: 'bridesmaid',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
+            name: 'Aileen Tartanian',
+            bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
+        },
+        {
+            id: '4',
+            type: 'bridesmaid',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
+            name: 'Aileen Tartanian',
+            bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
+        },
+        {
+            id: '5',
+            type: 'bridesmaid',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
+            name: 'Aileen Tartanian',
+            bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
+        },
+        {
+            id: '6',
+            type: 'bridesmaid',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
+            name: 'Aileen Tartanian',
+            bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
+        },
+        {
+            id: '7',
+            type: 'bridesmaid',
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd',
+            name: 'Aileen Tartanian',
+            bio: 'I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)'
+        },
 
-        ],
-        groomsMen: [
-            {
-                image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
-                name: 'Matt Smith',
-                bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
-            },
-            {
-                image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
-                name: 'Matt Smith',
-                bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
-            },
-            {
-                image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
-                name: 'Matt Smith',
-                bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
-            },
-            {
-                image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
-                name: 'Matt Smith',
-                bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
-            },
-            {
-                image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
-                name: 'Matt Smith',
-                bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
-            },
-            {
-                image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
-                name: 'Matt Smith',
-                bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
-            },
-            {
-                image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
-                name: 'Matt Smith',
-                bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
-            },
-        ],
+        {
+            id: '8',
+            type: 'groomsMen',
+            image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
+            name: 'Matt Smith',
+            bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
+        },
+        {
+            id: '9',
+            type: 'groomsMen',
+            image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
+            name: 'Matt Smith',
+            bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
+        },
+        {
+            id: '10',
+            type: 'groomsMen',
+            image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
+            name: 'Matt Smith',
+            bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
+        },
+        {
+            id: '11',
+            type: 'groomsMen',
+            image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
+            name: 'Matt Smith',
+            bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
+        },
+        {
+            id: '12',
+            type: 'groomsMen',
+            image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
+            name: 'Matt Smith',
+            bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
+        },
+        {
+            id: '13',
+            type: 'groomsMen',
+            image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
+            name: 'Matt Smith',
+            bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
+        },
+        {
+            id: '14',
+            type: 'groomsMen',
+            image: 'https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F',
+            name: 'Matt Smith',
+            bio: 'I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School.'
+        },
+    ],
+    dashboard: {
+        displaying: 'events',
+        row: {}
     },
+    tables: {
+        weddingParty: {
+            title: 'Wedding Party',
+            rowSize: 14,
+            columns: [
+                {
+                    accessor: 'image',
+                    label: 'Image',
+                    priorityLevel: 3,
+                    position: 1,
+                    minWidth: 150,
+                    CustomComponent: TableImage
+                },
+                {
+                    accessor: 'name',
+                    label: 'Name',
+                    priorityLevel: 1,
+                    position: 2,
+                    minWidth: 150
+                },
+
+                {
+                    accessor: 'bio',
+                    label: 'Bio',
+                    priorityLevel: 4,
+                    position: 3,
+                    minWidth: 300
+                },
+                {
+                    accessor: 'edit',
+                    label: 'Edit',
+                    priorityLevel: 2,
+                    position: 4,
+                    minWidth: 150,
+                    CustomComponent: EditRow
+                },
+            ]
+        },
+        events: {
+            title: 'Wedding Events',
+            columns: [
+                {
+                    accessor: 'photo',
+                    label: 'Image',
+                    priorityLevel: 1,
+                    position: 1,
+                    minWidth: 150,
+                    CustomComponent: TableImage
+                },
+                {
+                    accessor: 'title',
+                    label: 'Title',
+                    priorityLevel: 3,
+                    position: 2,
+                    minWidth: 150,
+                },
+                {
+                    accessor: 'date',
+                    label: 'Date',
+                    priorityLevel: 4,
+                    position: 3,
+                    minWidth: 150
+                },
+                {
+                    accessor: 'time',
+                    label: 'Time',
+                    priorityLevel: 5,
+                    position: 4,
+                    minWidth: 300
+                },
+                {
+                    accessor: 'content',
+                    label: 'Description',
+                    priorityLevel: 6,
+                    position: 5,
+                    minWidth: 150
+                },
+                {
+                    accessor: 'edit',
+                    label: 'Edit',
+                    priorityLevel: 2,
+                    position: 7,
+                    minWidth: 150,
+                    CustomComponent: EditRow
+                },
+            ]
+        }
+    }
 }
 

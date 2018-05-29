@@ -1,0 +1,18 @@
+@import "../modules/variables";
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  height: auto;
+  @media (min-width: $lg) {
+    height: calc(100vh - 48px);
+  }
+}
+
+.sidebar-bg {
+  background-color: #003c57;
+}
