@@ -17,38 +17,122 @@ export default {
     {
       title: "Boston Aquarium",
       content:
-        "We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!",
+        "One of our favorite spots is the Boston Aquarium. Here you can watch the penguins play, pet sand sharks, watch the seals show off and more!",
       photo:
         "http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg",
       website: "http://www.neaq.org/",
       price: "28"
     },
     {
-      title: "Boston Aquarium",
-      content:
-        "We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!",
-      photo:
-        "http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg",
-      website: "http://www.neaq.org/",
-      price: "28"
+      title: "Whale Watching",
+      content: "",
+      photo: "https://www.bostonharborcruises.com/media/1136/jabiru.jpg",
+      website: "https://www.bostonharborcruises.com/whale-watch/",
+      price: "53"
     },
     {
-      title: "Boston Aquarium",
+      title: "Boston Duck Tour",
       content:
-        "We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!",
+        "Looking to explore Boston a bit? Why not checkout Boston from a bus and a boat! On the duck tours they will show Boston from a number of different angles, give some history about Boston and crack a few jokes.",
       photo:
-        "http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg",
-      website: "http://www.neaq.org/",
-      price: "28"
+        "http://www.bostonducktours.com/wp-content/uploads/2015/07/hp3.jpg",
+      website: "http://www.bostonducktours.com/",
+      price: "42"
     },
     {
-      title: "Boston Aquarium",
+      title: "Museum of Science",
       content:
-        "We like this a lot, check out the seals they are the best! The penguins are pretty cool to!!!! Also that turtle is huge!!!!!",
+        "Another one of our favorite spots is the Museum of Science! Here you can watch some cool shows from the lightning in the cage to great imax screens. You can try out all of their interactive exhibits that test your math and science skills. You can also go and learn a bit more about the human body and the animal kingdom while you are there!",
+      photo: "",
+      website: "https://www.mos.org/",
+      price: "25"
+    },
+    {
+      title: "Greenway",
+      content:
+        "Looking for an enjoyable hike through boston? Follow the old highway that was turned into a park! There are events popping up along the route like the Trillium beer garden to lawn games.",
       photo:
-        "http://d279m997dpfwgl.cloudfront.net/wp/2016/08/0819_seal-aquarium-1000x665.jpg",
-      website: "http://www.neaq.org/",
-      price: "28"
+        "https://www.rosekennedygreenway.org/files/cache/984158103c5ef27096eee15782673a55_f2183.jpg",
+      website: "https://www.rosekennedygreenway.org/",
+      price: "Free"
+    },
+    {
+      title: "Paul's work!",
+      content:
+        "So much more exciting than it sounds is going to visit the building Paul works in. The 14th floor is open to the public and has a great view out into the harbor and you can even see where we are getting married from there!",
+      photo: "https://c1.staticflickr.com/6/5089/5351220903_57ab3f66df_b.jpg",
+      website: "http://www.470atlanticboston.com/",
+      price: "Free"
+    },
+    {
+      title: "Boston Tea Party Ships & Museum",
+      content:
+        "Honestly have yet to go here, but it is on our list as one of the Boston main stays we have to try out!",
+      photo:
+        "https://cdn.trolleytours.com/wp-content/uploads/2016/05/boston-tea-party-ships-ticket.jpg",
+      website: "http://www.bostonteapartyship.com/",
+      price: "30"
+    },
+    {
+      title: "Freedom Trail",
+      content:
+        "Honestly have yet to go here, but it is on our list as one of the Boston main stays we have to try out!",
+      photo: "",
+      website: "http://www.thefreedomtrail.org/",
+      price: "12-20"
+    },
+    {
+      title: "Sam Adams Brewery",
+      content: "Probably the most well known brewery in Boston and a great thing to check of your list of tihngs to do while you are here!",
+      photo: "http://www.samueladams.com//app_media/SamAdamsRedux/Modules/Split-Content-Hero-Block-Images/Brewery-Image.file",
+      website: "http://www.samueladams.com/",
+      price: "Free minus the cost of beer"
+    },
+    {
+      title: "Harpoon Brewery",
+      content: "One of Paul's favorite breweries in the Boston area. Paul highly recommends doing the tour where you can sample all of their beers, eat delicious pretzal and learn a little more about the process of brewing a great beer.",
+      photo: "",
+      website: "https://www.harpoonbrewery.com/",
+      price: ""
+    },
+    {
+      title: "Trillium Brewery",
+      content: "A great local brewery that is one of Paul's favorites. The only tip he has is to checkout the Boston locations as the canton one is a bit outside of Boston.",
+      photo: "",
+      website: "http://www.trilliumbrewing.com/",
+      price: ""
+    },
+    {
+      title: "Trillium Beer Garden",
+      content: "Looking to enjoy the wonderful weather and a beer? One of Paul's favorite spots to do both is the trillium beer garden which is about a block away from work!",
+      photo: "https://static1.squarespace.com/static/5527dc92e4b04be388ca48e4/t/5ae0a36baa4a99e2b64183b6/1524671343661/trillium_garden_glass-fence_web.jpg?format=2500w",
+      website: "http://www.trilliumbrewing.com/greenway-garden/",
+      price: "Free minus the cost of beer"
+    },
+    {
+      title: "Boston Public Garden/Common",
+      content: "Two parks downtown right next to each other that are great to wander around in, enjoy the view and where Michelle and Paul got engaged!",
+      photo: "https://cache-graphicslib.viator.com/graphicslib/page-images/360x240/100488_Boston_Boston%20Public%20Garden_d678-48.jpg",
+      website: "https://www.viator.com/Boston-attractions/Boston-Public-Garden/d678-a1233",
+      price: "Free"
+    },
+    {
+      title: "Top of the hub",
+      content:
+        "All we have to say is great food, amazing view, a tad expensive! We went here for Boston's restaurant week and highly recommend it if the prices aren't to scary.",
+      photo:
+        "http://topofthehub.net/wp-content/uploads/2016/06/headerimage21.jpg",
+      website: "http://topofthehub.net/",
+      price: "$$$$"
+    },
+    {
+      title: "Faneuil Hall",
+      content:
+        "A great place to wander around before doing the freedom trail, some great food, shops and performers with something new to checkout every time!",
+      photo:
+        "https://faneuilhallmarketplace.com/wp-content/uploads/sites/203/2017/10/things-to-do-in-boston-mall-faneuil-hall-1024x640.jpg",
+      website: "https://faneuilhallmarketplace.com/",
+      price: "Free"
     }
   ],
   events: [
@@ -624,7 +708,7 @@ export default {
     }
   ],
   dashboard: {
-    displaying: "events",
+    displaying: "weddingParty",
     row: {}
   },
   tables: {

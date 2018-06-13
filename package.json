@@ -5,6 +5,7 @@
   "dependencies": {
     "bootstrap": "^4.0.0",
     "classnames": "^2.2.5",
+    "concurrently": "^3.5.1",
     "moment": "^2.22.1",
     "react": "^16.2.0",
     "react-collapsing-table": "^0.3.1",
@@ -19,6 +20,7 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
+    "dev": "concurrently --kill-others \"npm start\" \"npm run sass\"",
     "start": "react-scripts start",
     "build": "npm run sass:build && react-scripts build",
     "deploy": "npm run build && s3cmd sync build/* s3://paulmichelle2019.com && echo '🚀  Deployed!'",

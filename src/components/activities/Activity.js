@@ -3,13 +3,15 @@ import React from 'react';
 //Components
 
 const Activity = ({photo, title, price, website, content}) => {
-
+    const priceContent = price === 'Free' 
+        ? 'It is Free!'
+        : `It is ~${ price } dollars per person`
     return (
         <div className='card col-12 mb-5'>
             <img className='img-fluid' src={photo} />
             <div className='card-body container text-center'>
                 <h3 className='text-center'>{ title }</h3>
-                <p>{ content }. It is ~${price} dollars per person</p>
+                <p>{ content }. { priceContent }</p>
                 <p>For more information
                     <a href={website}>
                         click here
