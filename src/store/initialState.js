@@ -642,69 +642,54 @@ export default {
       bio:
         "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
     },
-
     {
       id: "8",
       type: "groomsMen",
-      image:
-        "https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/mattSmith.jpg",
       name: "Matt Smith",
-      bio:
-        "I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School."
+      bio: "Hey everyone my name is Matt Smith, I met Paul at Bishop Feehan High School during our sophomore year, we enjoy cooking, making pizza, stroking raw duck and using Matt’s shoulder as Paul’s arm rest. One of my favorite moments with Paul is when he was my armrest for prom pictures. A fun fact about myself is I don’t know any songs off the top of my head about trucks but I do know how to play one about a tractor."
     },
     {
       id: "9",
       type: "groomsMen",
-      image:
-        "https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F",
-      name: "Matt Smith",
-      bio:
-        "I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School."
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/brandonNieves.jpg",
+      name: "Brandon Nieves",
+      bio: "My name is Brandon Nieves and I met Paul at RIT. I ended up joining the same fraternity as Paul, ΦΚΤ, and later on he became my big brother. We connected very well and since then we became best friends ever since. My favorite memories of Paul and I have to include of our long walks on the beach, going on picnics and our favorite, cheap dinner and watch a rom-com while drinking wine together. I like to think myself as an entrepreneur. Jack of all trades, master of none. Future pilot for the United States Marine Corps.Semper Fidelis"
     },
     {
       id: "10",
       type: "groomsMen",
-      image:
-        "https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F",
-      name: "Matt Smith",
-      bio:
-        "I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School."
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/nickCifranic.png",
+      name: "Nick Cifranic",
+      bio: "My Name is Nick. I met Paul at a dirty fraternity house party – and our standards have been the same since. Paul and I have been through thick and thin (no pun intended) – whether that’s traveling through Switzerland, Germany, Dubai, or just simply getting lost in the tunnels at RIT. My favorite memory of us was our Junior year when we released unveiled the RIT bikeshare program. A fun fact about myself – I witnessed Paul murder a baby black bear."
     },
     {
       id: "11",
       type: "groomsMen",
-      image:
-        "https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F",
-      name: "Matt Smith",
-      bio:
-        "I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School."
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/bryanHarper.jpg",
+      name: "Bryan Harper",
+      bio: "My name is Bryan Harper. I met Paul at RIT, where we b̶e̶c̶a̶m̶e̶ ̶c̶o̶n̶n̶o̶i̶s̶s̶e̶u̶r̶s̶ ̶o̶f̶ ̶m̶e̶d̶i̶o̶c̶r̶e̶ ̶b̶o̶u̶r̶b̶o̶n̶ attended college. My favorite memory with Paul was being challenged to eat atomic wings and sharing the suffering that ensued. A fun fact about me is that I can make convincing cricket sounds, especially during awkward silences."
     },
     {
       id: "12",
       type: "groomsMen",
-      image:
-        "https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F",
-      name: "Matt Smith",
-      bio:
-        "I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School."
-    },
+      image: "https://scontent.fbos1-2.fna.fbcdn.net/v/t1.0-9/13179361_10208676812503009_3478896142035633467_n.jpg?_nc_cat=0&oh=e4353b392abb55ded4f0caf4551893ba&oe=5C028D84",
+      name: "Mason Scioti",
+      bio: ""
+    }, 
     {
       id: "13",
       type: "groomsMen",
-      image:
-        "https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F",
-      name: "Matt Smith",
-      bio:
-        "I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School."
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/jaimeDarragh.jpg",
+      name: "Jamie Darragh",
+      bio: "Hi I am Jamie, I am Paul's younger brother. Some of my favorite memories with Paul where when we use to go visit our grandparents for a week at a time in New Hampshire to ski in the winter and go swimming in the summer. One fun fact about me is that I got to travel all over the US as a truck driver with my trusted companion Luna."
     },
     {
       id: "14",
       type: "groomsMen",
-      image:
-        "https://scontent.fbed1-1.fna.fbcdn.net/v/t31.0-8/12045704_10205336135308263_1578082194425790852_o.jpg?_nc_cat=0&oh=aedf07f4486cca39f98de083ac30c892&oe=5B2C499F",
-      name: "Matt Smith",
-      bio:
-        "I like to lift things up and put them down! I also have been chilling with Paul and Michelle since back in the day when we were in High School."
+      image: "https://scontent.fbos1-2.fna.fbcdn.net/v/t1.0-9/36766555_10209682229131390_6055167455087558656_o.jpg?_nc_cat=0&oh=487391bec220c699d71a5b0dd8b21bec&oe=5BF7D31E",
+      name: "Steven Denison",
+      bio: ""
     }
   ],
   dashboard: {

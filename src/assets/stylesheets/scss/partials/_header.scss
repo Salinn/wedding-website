@@ -20,3 +20,7 @@ header {
 .header-links {
   text-align: center;
 }
+
+.nav-item {
+  @extend h5
+}

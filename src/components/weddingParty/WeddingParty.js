@@ -1,37 +1,16 @@
 //React
 import React from 'react';
 //Components
-import Title from "../utils/atoms/Title";
-import Profile from "./Profile";
+import Desktop from './Desktop'
+import Mobile from './Mobile'
+import withSizes from 'react-sizes'
 
-const WeddingParty = ({ weddingParty }) => {
-    console.log(weddingParty, typeof (weddingParty));
+const mapSizesToProps = ({ width }) => ({
+    isMobile: width < 767,
+})
 
-    const { bridesMaids, groomsMen } = weddingParty.reduce((sortedParty, person) => {
-        person.type === 'bridesmaid'
-            ? sortedParty.bridesMaids.push(person)
-            : sortedParty.groomsMen.push(person);
-
-        return sortedParty
-    },
-        { bridesMaids: [], groomsMen: [] }
-    );
-
-    const bridesMaidsProfiles = bridesMaids.map(person => <Profile {...person} />);
-    const groomsMenProfiles = groomsMen.map(person => <Profile {...person} />);
-
-    return <div className="container text-center">
-        <div className="row">
-            <div className="col-12 col-md-6">
-                <Title content="Bridesmaids" />
-                {bridesMaidsProfiles}
-            </div>
-            <div className="col-12 col-md-6">
-                <Title content="Groomsmen" />
-                {groomsMenProfiles}
-            </div>
-        </div>
-    </div>;
+const WeddingParty = ({ weddingParty, isMobile }) => {
+    return isMobile ? <Mobile weddingParty={weddingParty} /> : <Desktop weddingParty={weddingParty} />
 };
 
-export default WeddingParty
+export default withSizes(mapSizesToProps)(WeddingParty)
