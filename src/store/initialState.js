@@ -492,7 +492,7 @@ export default {
   },
   home: {
     hero: {
-      url: "https://s3.amazonaws.com/paulmichelle2019-website-photos/hero-photo"
+      url: "https://s3.amazonaws.com/paulmichelle2019-website-photos/hero-photo.jpg"
     },
     aboutUs: [
       "Hi we are Michelle and Paul, which you likely know if you are reading this! But in case you wanted to re-visit history here’s a little bit about how we got to be us today. We met in high school as freshman when we shared not two but three classes together; religion, biology, and history. And while Michelle and Paul paired together in class never resulted in much work getting done, it did result in a whole lot of fun! Flirting by the lockers, standing in the lunch line together, and always trying to stick a $20 in each other’s pockets were just a few of the crazy adventures that made up high school. We both headed out to upstate New York for college, with Michelle studying Occupational Therapy at Ithaca College and Paul studying Software Engineering at Rochester Institute of Technology.During college we both had some time to grow and learn, but after spending a summer together in Rochester NY before senior year we started to realize that we had each found the one special person in the world that we wanted to annoy for the rest of our lives! The remainder of college was filled with adventures exploring the vineyards of upstate New York, hiking the beautiful gorges of Ithaca, and of course hanging out with a few Phi Tau brothers."
