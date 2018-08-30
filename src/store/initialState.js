@@ -12,6 +12,14 @@ const daysUntilTheMoveIn = ourMoveInDate.diff(today, "days");
 const timeWorkedAtOTA = today.diff(otaStartDate, "years");
 const timeWorkedAtMM = today.diff(mmStartDate, "months");
 
+const photosOfUs = []
+for(let i=1; i < 84; i++) {
+  photosOfUs.push({
+    image: `https://s3.amazonaws.com/paulmichelle2019-website-photos/${i}.jpg`,
+    caption: ""
+  })
+}
+
 export default {
   activities: [
     {
@@ -138,79 +146,52 @@ export default {
   events: [
     {
       id: 1,
-      photo:
-        "https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0",
-      date: "January 6th",
-      time: "12:30 pm to 6 pm",
+      photo: "https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0",
+      date: "Sunday April 7th, 2019",
+      time: "TBD",
       location: {
-        label: "44 Matthew Lane, Waltham MA",
-        link:
-          "https://www.google.com/maps/place/44+Matthew+Ln,+Waltham,+MA+02452/@42.4006173,-71.2266826,17z/data=!3m1!4b1!4m5!3m4!1s0x89e39d1637027a97:0x7c74e41d871625fc!8m2!3d42.4006134!4d-71.2244939"
+        label: "TBD",
+        link: ""
       },
       title: "Bridal Shower",
-      content:
-        "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle! I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!"
+      content: "Ladies, please join us on  for Michelle’s Bridal Shower. Formal invitation with details to follow."
     },
     {
       id: 2,
-      photo:
-        "https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0",
-      date: "January 6th",
-      time: "12:30 pm to 6 pm",
+      photo: "https://apis.xogrp.com/media-api/images/eb8af8fd-55fa-43a2-b5fd-52f8c02b8569~sc_768.576.fit?quality=60",
+      date: "Friday July 5th, 2019",
+      time: "TBD",
       location: {
-        label: "44 Matthew Lane, Waltham MA",
-        link:
-          "https://www.google.com/maps/place/44+Matthew+Ln,+Waltham,+MA+02452/@42.4006173,-71.2266826,17z/data=!3m1!4b1!4m5!3m4!1s0x89e39d1637027a97:0x7c74e41d871625fc!8m2!3d42.4006134!4d-71.2244939"
+        label: "TBD",
+        link: ""
       },
-      title: "Bridal Shower",
-      content:
-        "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!"
+      title: "Rehearsal Dinner",
+      content: "Check back later as these details fall into place!"
     },
     {
       id: 3,
-      photo:
-        "https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0",
-      date: "January 6th",
-      time: "12:30 pm to 6 pm",
+      photo: "https://c1.staticflickr.com/5/4152/4837580854_b8d476a6ef_b.jpg",
+      date: "Sunday April 7, 2019",
+      time: "TBD",
       location: {
-        label: "44 Matthew Lane, Waltham MA",
-        link:
-          "https://www.google.com/maps/place/44+Matthew+Ln,+Waltham,+MA+02452/@42.4006173,-71.2266826,17z/data=!3m1!4b1!4m5!3m4!1s0x89e39d1637027a97:0x7c74e41d871625fc!8m2!3d42.4006134!4d-71.2244939"
+        label: "Sacred Heart of Jesus Church",
+        link: "https://www.google.com/maps/place/311+River+St,+Waltham,+MA+02453/@42.3739145,-71.2299801,17z"
       },
-      title: "Bridal Shower",
-      content:
-        "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!"
+      title: "Ceremony",
+      content: "Please join us at 2:30pm for our Catholic wedding mass!"
     },
     {
       id: 4,
-      photo:
-        "https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0",
-      date: "January 6th",
-      time: "12:30 pm to 6 pm",
+      photo: "http://dun6irwnoloqf.cloudfront.net/images/venues/9590/Hyatt-Regency-Boston-Harbor-wedding-Boston-MA-147503-orig.1484347437.jpg",
+      date: "Friday July 5th, 2019",
+      time: "TBD",
       location: {
-        label: "44 Matthew Lane, Waltham MA",
-        link:
-          "https://www.google.com/maps/place/44+Matthew+Ln,+Waltham,+MA+02452/@42.4006173,-71.2266826,17z/data=!3m1!4b1!4m5!3m4!1s0x89e39d1637027a97:0x7c74e41d871625fc!8m2!3d42.4006134!4d-71.2244939"
+        label: "Hyatt Regency Boston Harbor",
+        link: "https://www.google.com/maps/place/101+Harborside+Dr,+Boston,+MA+02128/@42.3592641,-71.0294005,17z/"
       },
-      title: "Bridal Shower",
-      content:
-        "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!"
+      title: "Reception",
+      content: "We are so excited to celebrate on the lawn and pavilion tent of the Hyatt Regency Boston Harbor Hotel with all of you! Cocktail hour begins at 5:30pm on the Harbor Lawn."
     },
-    {
-      id: 5,
-      photo:
-        "https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0",
-      date: "January 6th",
-      time: "12:30 pm to 6 pm",
-      location: {
-        label: "44 Matthew Lane, Waltham MA",
-        link:
-          "https://www.google.com/maps/place/44+Matthew+Ln,+Waltham,+MA+02452/@42.4006173,-71.2266826,17z/data=!3m1!4b1!4m5!3m4!1s0x89e39d1637027a97:0x7c74e41d871625fc!8m2!3d42.4006134!4d-71.2244939"
-      },
-      title: "Bridal Shower",
-      content:
-        "I don't know what we do during a bridal shower, but it is a thing women do some come and join us to celebrate Michelle!"
-    }
   ],
   hotels: [
     {
@@ -309,275 +290,7 @@ export default {
         "This is our room block, please follow the link if you are interested in staying here with in"
     }
   ],
-  photos: [
-    {
-      image:
-        "https://assets.marthastewartweddings.com/styles/wmax-1500/d49/aislinn-eric-wedding-malibu-bride-groom-102896024/aislinn-eric-wedding-malibu-bride-groom-102896024_horiz.jpg?itok=2X6AtG4N",
-      caption: ""
-    },
-    {
-      image:
-        "https://media.brides.com/photos/5a1c369e3a5c87214f6de130/master/pass/lizzy-stone-and-chandler-brown-wedding20171106_01.JPG",
-      caption: ""
-    },
-    {
-      image:
-        "https://6737455825196301ef70-26c82c9028aee0c5860aa60a0bbaa4da.ssl.cf1.rackcdn.com/dxthm1000.Best-Long-Island-Wedding-Photographers-037-.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/313707/pexels-photo-313707.jpeg?auto=compress&cs=tinysrgb&h=350",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.marthastewartweddings.com/styles/wmax-1500/d49/aislinn-eric-wedding-malibu-bride-groom-102896024/aislinn-eric-wedding-malibu-bride-groom-102896024_horiz.jpg?itok=2X6AtG4N",
-      caption: ""
-    },
-    {
-      image:
-        "https://media.brides.com/photos/5a1c369e3a5c87214f6de130/master/pass/lizzy-stone-and-chandler-brown-wedding20171106_01.JPG",
-      caption: ""
-    },
-    {
-      image:
-        "https://6737455825196301ef70-26c82c9028aee0c5860aa60a0bbaa4da.ssl.cf1.rackcdn.com/dxthm1000.Best-Long-Island-Wedding-Photographers-037-.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/313707/pexels-photo-313707.jpeg?auto=compress&cs=tinysrgb&h=350",
-      caption: ""
-    },
-    {
-      image: "https://peopledotcom.files.wordpress.com/2017/11/kate-upton2.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.oncewed.com/wp-content/uploads/2015/12/1-romantic-lace-wedding-gown-1300x1765.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://img1.southernliving.timeinc.net/sites/default/files/styles/story_card_two_thirds/public/image/2017/06/main/autumn-charleston-wedding-jophoto-kn5a9998.jpg?itok=A8gDXji4",
-      caption: ""
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=350",
-      caption: ""
-    },
-    {
-      image:
-        "https://img1.etsystatic.com/218/1/9469340/il_340x270.1418447595_8kuw.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.levkuperman.com/wp-content/uploads/2016/12/Kayti_Jake_Wedding_444.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.hitched.co.uk/images/articles/fave-wedding-photos.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://s-i.huffpost.com/gen/2806956/images/o-WEDDING-facebook.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "http://blog.stylishwedd.com/wp-content/uploads/2017/05/stunning-diy-floral-wedding-arch-decoration-ideas.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://gossipweddings.com/wp-content/uploads/2017/10/Small-bride-and-groom-dancing-139.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.marthastewartweddings.com/styles/wmax-1500/d49/aislinn-eric-wedding-malibu-bride-groom-102896024/aislinn-eric-wedding-malibu-bride-groom-102896024_horiz.jpg?itok=2X6AtG4N",
-      caption: ""
-    },
-    {
-      image:
-        "https://media.brides.com/photos/5a1c369e3a5c87214f6de130/master/pass/lizzy-stone-and-chandler-brown-wedding20171106_01.JPG",
-      caption: ""
-    },
-    {
-      image:
-        "https://6737455825196301ef70-26c82c9028aee0c5860aa60a0bbaa4da.ssl.cf1.rackcdn.com/dxthm1000.Best-Long-Island-Wedding-Photographers-037-.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/313707/pexels-photo-313707.jpeg?auto=compress&cs=tinysrgb&h=350",
-      caption: ""
-    },
-    {
-      image: "https://peopledotcom.files.wordpress.com/2017/11/kate-upton2.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.oncewed.com/wp-content/uploads/2015/12/1-romantic-lace-wedding-gown-1300x1765.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://img1.southernliving.timeinc.net/sites/default/files/styles/story_card_two_thirds/public/image/2017/06/main/autumn-charleston-wedding-jophoto-kn5a9998.jpg?itok=A8gDXji4",
-      caption: ""
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=350",
-      caption: ""
-    },
-    {
-      image:
-        "https://img1.etsystatic.com/218/1/9469340/il_340x270.1418447595_8kuw.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.levkuperman.com/wp-content/uploads/2016/12/Kayti_Jake_Wedding_444.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.hitched.co.uk/images/articles/fave-wedding-photos.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://s-i.huffpost.com/gen/2806956/images/o-WEDDING-facebook.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "http://blog.stylishwedd.com/wp-content/uploads/2017/05/stunning-diy-floral-wedding-arch-decoration-ideas.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://gossipweddings.com/wp-content/uploads/2017/10/Small-bride-and-groom-dancing-139.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://media.brides.com/photos/59e7a4d31c1f6118730f1e34/master/pass/elisa-hong-and-edward-chung-wedding20171016_01.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.vogue.com/photos/5a1dab699871cf3583efa544/16:9/pass/00-story-image-fei-and-lincoln-capri-wedding.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201705/pippa-middleton-wedding-groom-today-170520-tease-01.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.marthastewartweddings.com/styles/wmax-520-highdpi/d44/louisa-robert-wedding-couple-61-6274642-0317/louisa-robert-wedding-couple-61-6274642-0317_vert.jpg?itok=90SeHzGx",
-      caption: ""
-    },
-    {
-      image:
-        "https://media.brides.com/photos/59e7a4d31c1f6118730f1e34/master/pass/elisa-hong-and-edward-chung-wedding20171016_01.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.vogue.com/photos/5a1dab699871cf3583efa544/16:9/pass/00-story-image-fei-and-lincoln-capri-wedding.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201705/pippa-middleton-wedding-groom-today-170520-tease-01.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.marthastewartweddings.com/styles/wmax-520-highdpi/d44/louisa-robert-wedding-couple-61-6274642-0317/louisa-robert-wedding-couple-61-6274642-0317_vert.jpg?itok=90SeHzGx",
-      caption: ""
-    },
-    {
-      image: "https://peopledotcom.files.wordpress.com/2017/11/kate-upton2.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.oncewed.com/wp-content/uploads/2015/12/1-romantic-lace-wedding-gown-1300x1765.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://img1.southernliving.timeinc.net/sites/default/files/styles/story_card_two_thirds/public/image/2017/06/main/autumn-charleston-wedding-jophoto-kn5a9998.jpg?itok=A8gDXji4",
-      caption: ""
-    },
-    {
-      image:
-        "https://images.pexels.com/photos/256737/pexels-photo-256737.jpeg?auto=compress&cs=tinysrgb&h=350",
-      caption: ""
-    },
-    {
-      image:
-        "https://img1.etsystatic.com/218/1/9469340/il_340x270.1418447595_8kuw.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.levkuperman.com/wp-content/uploads/2016/12/Kayti_Jake_Wedding_444.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://www.hitched.co.uk/images/articles/fave-wedding-photos.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://s-i.huffpost.com/gen/2806956/images/o-WEDDING-facebook.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "http://blog.stylishwedd.com/wp-content/uploads/2017/05/stunning-diy-floral-wedding-arch-decoration-ideas.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://gossipweddings.com/wp-content/uploads/2017/10/Small-bride-and-groom-dancing-139.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://media.brides.com/photos/59e7a4d31c1f6118730f1e34/master/pass/elisa-hong-and-edward-chung-wedding20171016_01.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.vogue.com/photos/5a1dab699871cf3583efa544/16:9/pass/00-story-image-fei-and-lincoln-capri-wedding.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://media1.s-nbcnews.com/i/MSNBC/Components/Video/201705/pippa-middleton-wedding-groom-today-170520-tease-01.jpg",
-      caption: ""
-    },
-    {
-      image:
-        "https://assets.marthastewartweddings.com/styles/wmax-520-highdpi/d44/louisa-robert-wedding-couple-61-6274642-0317/louisa-robert-wedding-couple-61-6274642-0317_vert.jpg?itok=90SeHzGx",
-      caption: ""
-    }
-  ],
+  photos: photosOfUs,
   weddingParty: [
     {
       id: "1",
@@ -585,62 +298,55 @@ export default {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
       name: "Aileen Tartanian",
-      bio:
-        "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
+      bio: "Although Michelle and I met freshman year at IC (Ithaca College), we didn't really become friends until we were housemates for the PT/OT summer human anatomy course in 2014.  We bonded immediately; laughing and crying during hours of studying, wrangling (possibly rabid) kittens, dishing on boy drama, and discovering the strange world that is Michelle's cooking.  Since graduation three years ago, Michelle has remained one of my closest friends.  I'm currently working towards a PhD in Organsimal Biology & Anatomy at the University of Chicago.  As I navigate this new chapter in my life, Michelle helps me realize the little bits of humor in every day awkwardness and setbacks.  For instance, yes, I've had to deal with a lot of animal poop since I've started grad school.  BUT, if this trend continues, I'll likely be able to say that I've been pooped on by members of all the major taxonomic groups in vertebrates!  Michelle taught me to approach each day with a smile, even on days when your opossum has diarrhea."
     },
     {
       id: "2",
       type: "bridesmaid",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Aileen Tartanian",
-      bio:
-        "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
+      name: "Delaney ",
+      bio: "My name is Delaney. Michelle and I met in college during a summer anatomy course in Rochester, NY, during which we became quick friends. Since then I have had the pleasure of living with Michelle for two years filled with lots of laughter, food, TV binge watching, the occasional drink, and more pink and glitter than I ever thought possible. One of my favorite memories with both Michelle and Paul was wine touring with the two of them in the on Cayuga Lake. A fun fact about me is that I have been to 17 countries (3 continents) and plan to visit many more!"
     },
     {
       id: "3",
       type: "bridesmaid",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Aileen Tartanian",
-      bio:
-        "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
+      name: "Emily ",
+      bio: "My name is Emily and I am a physical therapist in Los Angeles, California. I met Michelle at Ithaca College during our summer anatomy course, where she was definitely the calmest out of all of us. My favorite memory of Michelle during school was our once-a-week tea and coloring nights, which kept me sane and balanced throughout the craziest years of PT school. Since graduating, my favorite memory of Michelle has been playing cross-country phone tag and never giving up until we finally get ahold of each other. A fun fact about me is that I grew up on a farm and spent a lot of time showing cows at county fairs and made it all the way to the National Dairy Quiz Bowl competition!"
     },
     {
       id: "4",
       type: "bridesmaid",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Aileen Tartanian",
-      bio:
-        "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
+      name: "Sarah ",
+      bio: "My name is Sarah and I’ve been friends with Michelle since middle school. Throughout my years of knowing her, we’ve made some great memories! One of my favorites has to be when her, Anhthi and I got all dressed up to go see a movie! We were in dresses and heels with full faces of make up, just to sit in a dark (and ultimately empty) theater! It seemed crazy at the time, but it was definitely the most fun I’ve had at a movie!"
     },
     {
       id: "5",
       type: "bridesmaid",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Aileen Tartanian",
-      bio:
-        "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
+      name: "Anhthi ",
+      bio: "My name is Anhthi and have been friends with Michelle and Sarah and since middle school! I recently joined the Salesian Sisters of St. John Bosco where I have the pleasure of working with many wonderful children! Prior to joining the Salesian Sisters I taught first grade CCD and helped my group of first graders to make their first communion! We had so much fun one weekend when we stayed at Sarah’s parents’ house on the Cape exploring lots of shops and getting henna tattoos that we sported with pride for the rest of the weekend!"
     },
     {
       id: "6",
       type: "bridesmaid",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Aileen Tartanian",
-      bio:
-        "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
+      name: "Beth",
+      bio: "Hello everyone my name is Beth and I am Michelle’s cousin. Michelle and I grew up together; I can remember loving to swing on a huge circle swing at her old house. We always tried to swing as high as we could so we felt like we were flying. We would always catch up with very long conversations and I always look forward to hearing from her. One fun fact about me is that I studied abroad in Scotland for a semester, this was one experience I will never forget."
     },
     {
       id: "7",
       type: "bridesmaid",
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Aileen Tartanian",
-      bio:
-        "I love learning about how the world works around us and how we can get along better with animals! Michelle and I became good friends in college :)"
+      name: "Annemarie ",
+      bio: "My name is Annemarie and I am one of Michelle’s cousins. I am also Beth’s older sister and work as a dietary aide. I remember swimming with Michelle in her backyard pool growing up and going to Niagra Falls just Aunt Nancy, Mom, Beth, Steven, Michelle and me! It was a blast! A fun fact about me is that I have a cat named Timmy."
     },
     {
       id: "8",
@@ -790,11 +496,10 @@ export default {
         "https://lh3.googleusercontent.com/XxqCAp_1j_OkHT7HJMBVjShTtZtqsTxScZ1UF_znL4iqc-nJxwOHz6wetCUsVisfL1PRF_S2OWkA3Ggan3SB9Ot_WSGmrh76sffX2p5kRyw5TGTFFne9OB9RDJWDcoZ-qU_0rCeOlKW5vGe69KIyR2QB1kdcG6cTNmIUmTVb1vcnLO-zLcApZSb0gh9Tx_uS8cdKxMth6eVANGGbfj2kyup07LlMybVpBW5QH0pDddn2jNCUF1DucmvrLgiCWcTAnQoqXayr04-P-eM_8b0bGnv2rCTl_VpCYd-frSbaJ6MscgoWVVzI9hpxp4QInXrkz99cbOGCmjYddmWIbpzeNiAHCw3hHgOvmtai1BP9e5CTda1y7f1b3ngJvjEiZCgcbK6n_M86kEDGDB5598rA7QI67j5ZrIzmXh4XFQbuKr1VTFGn_82ucxUYAmRBibuo3ohB_aTCamkszjTqBlNE4IBAHcn64cOhj5IYf0w7Iq9E0kmUyg1zQ-bqFjqeJr_UxqFfEGy0jWdEDChKSF_TFaZ0CWcVOXiGnEMgjG6rK9axT8cLbxgQ4cocJgjaiYpN7_b-RhHQMKud1yy1tx4cnAHJDR_tDtvXJA=w2620-h1746-no"
     },
     aboutUs: [
-      "Hi we are Michelle and Paul! We met back in highschool. It all started when we sat next to each other in biology. That is when we started figuring out that this might be that one special person in the world that I want to annoy for the rest of my life!",
-      "We both headed out to western NY for college, Michelle went to Ithaca College and Paul went to Rochester Institute of Technology. During college we both had some time to grow and learn, but in the end decided that we were right in high school so we picked up where we left off! We also added some new things to our relationship such as our love for wine and day drinking.",
-      `Now that we decided to start being adults after graduating, Michelle has been working at OTA for ${timeWorkedAtOTA} years and Paul has recently started working at Mass Mutual in the customer experience group and has been there for ${timeWorkedAtMM} months. We have enjoyed being able to try new and different things now that we have some spending money and time and our favorite experience thus far is our trip to Thailand together as our official first vacation! Though we are excited to say we are ready to take the next step and start living together in ${daysUntilTheMoveIn} days`
+      "Hi we are Michelle and Paul, which you likely know if you are reading this! But in case you wanted to re-visit history here’s a little bit about how we got to be us today. We met in high school as freshman when we shared not two but three classes together; religion, biology, and history. And while Michelle and Paul paired together in class never resulted in much work getting done, it did result in a whole lot of fun! Flirting by the lockers, standing in the lunch line together, and always trying to stick a $20 in each other’s pockets were just a few of the crazy adventures that made up high school. We both headed out to upstate New York for college, with Michelle studying Occupational Therapy at Ithaca College and Paul studying Software Engineering at Rochester Institute of Technology.During college we both had some time to grow and learn, but after spending a summer together in Rochester NY before senior year we started to realize that we had each found the one special person in the world that we wanted to annoy for the rest of our lives! The remainder of college was filled with adventures exploring the vineyards of upstate New York, hiking the beautiful gorges of Ithaca, and of course hanging out with a few Phi Tau brothers."
     ],
-    theProposal: ["", "", ""],
+    today: ["Being done with college is a wild thought but since then Paul and Michelle have started to explore this idea of being “grown-ups” and are enjoying it! Michelle has been working in a sensory integration occupational therapy clinic and Paul has recently started working at Mass Mutual in the customer experience group. We have enjoyed being able to try new and different things now and loved our first official vacation trip together where we traveled to Thailand last winter!"],
+    theProposal: ["Firstly, Michelle would like you to know, she was on to him! It all started the day before Paul would actually end up proposing to Michelle. The weather was a typical New England December today with freezing rain and sleet in the forecast for the entire day. Paul however was undeterred by this weather as he had already seemed particularly dedicated to going ice skating since he brought up the idea of going skating a few days ago. Michelle asked Paul that morning if he was sure he still wanted to go ice skating but Paul was absolutely sure they should still go. Suspicious!! Off they went, first eating at a Chinese restaurant that offered the most interesting of fortune cookies: Michelle’s read, “What if you got what you always wanted?” while Paul’s read, “Take the next step.” Well needless to say, Michelle knew this was the night. However, when they arrived at the Frog Pond only to learn it had closed down…due to the terrible weather… Michelle thought Paul might just improvise. But no. Slightly surprised, Michelle actually told Paul she had thought he was being very suspicious. However, Paul’s Phi Tau background came to his rescue sticking with a mantra that existed long before that day, “Deny everything.” And that is exactly what he did! Sitting on the subway with the ring stuffed into his jeans pocked he asked Michelle, “See where would I even keep a ring, look at all these pockets of my jacket.” Suffice to say, Michelle fell for it. The next morning Paul asked if she still wanted to go ice skating and Michelle believing in small miracles (it was Christmas Eve morning and her parents said they didn’t need any help prepping for that evening??) agreed; choosing her less favorite jacket since she now knew it wasn’t happening yet. Not one hour later, Paul went from holding her hands while skating backwards to suddenly dropping to one knee and pulling a ring out of his pocket asking Michelle to marry him. With a tearful yes, Michelle and Paul were ready to start planning a wedding!"],
     daysUntilTheWedding
   }
 };

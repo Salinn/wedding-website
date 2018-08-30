@@ -1,24 +1,18 @@
 //React
 import React from 'react';
 //Components
-import Carousel from './Carousel';
+import Title from "../utils/atoms/Title";
+import Location from './Location'
+import Revervations from './Revervations'
 
-const Hotel = ({ index, name, location, images, content }) => {
-
+const Hotel = () => {
     return (
-        <div className='card col-12 mb-4'>
-            <Carousel index={index} images={images} />
-            <div className='text-center'>
-                <h3>{name}</h3>
-                <p>Located at
-                    <a href={location.link}>
-                        { ` ${ location.label }` }
-                    </a>
-                </p>
-                <p>{content}</p>
-            </div>
+        <div className="container text-center">
+            <Title content="The Hyatt Regency Boston Harbor" />
+            <Revervations />
+            <Location />
         </div>
-    );
+    )
 };
 
 export default Hotel

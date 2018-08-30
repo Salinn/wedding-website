@@ -30,7 +30,7 @@ const Header = (props) => {
           </li>
           <li className="nav-item">
             <Link to="/weddingParty" className="nav-link">
-              Wedding Party
+              Wedding-Party
               </Link>
           </li>
           <li className="nav-item">
@@ -40,12 +40,12 @@ const Header = (props) => {
           </li>
           <li className="nav-item">
             <Link to="/hotels" className="nav-link col-auto">
-              Places to stay
+              Accomedations
               </Link>
           </li>
           <li className="nav-item">
             <Link to="/activities" className="nav-link col-auto">
-              Things to do
+              Activies
               </Link>
           </li>
           <li className="nav-item">

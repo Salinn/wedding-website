@@ -1,7 +1,7 @@
 //Redux
 import {connect} from 'react-redux';
 //Components
-import Hotels from '../components/hotels/Hotels';
+import Hotel from '../components/hotels/Hotel';
 
 function mapStateToProps(state) {
     return {
@@ -15,4 +15,4 @@ function mapDispatchToProps(dispatch) {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Hotels)
+export default connect(mapStateToProps, mapDispatchToProps)(Hotel)
