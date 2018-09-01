@@ -171,8 +171,8 @@ export default {
     {
       id: 3,
       photo: "https://c1.staticflickr.com/5/4152/4837580854_b8d476a6ef_b.jpg",
-      date: "Sunday April 7, 2019",
-      time: "TBD",
+      date: "Saturday July 6th, 2019",
+      time: "2:30 pm",
       location: {
         label: "Sacred Heart of Jesus Church",
         link: "https://www.google.com/maps/place/311+River+St,+Waltham,+MA+02453/@42.3739145,-71.2299801,17z"
@@ -183,8 +183,8 @@ export default {
     {
       id: 4,
       photo: "http://dun6irwnoloqf.cloudfront.net/images/venues/9590/Hyatt-Regency-Boston-Harbor-wedding-Boston-MA-147503-orig.1484347437.jpg",
-      date: "Friday July 5th, 2019",
-      time: "TBD",
+      date: "Saturday July 6th, 2019",
+      time: "5:30 pm",
       location: {
         label: "Hyatt Regency Boston Harbor",
         link: "https://www.google.com/maps/place/101+Harborside+Dr,+Boston,+MA+02128/@42.3592641,-71.0294005,17z/"
@@ -295,57 +295,50 @@ export default {
     {
       id: "1",
       type: "bridesmaid",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
       name: "Aileen Tartanian",
       bio: "Although Michelle and I met freshman year at IC (Ithaca College), we didn't really become friends until we were housemates for the PT/OT summer human anatomy course in 2014.  We bonded immediately; laughing and crying during hours of studying, wrangling (possibly rabid) kittens, dishing on boy drama, and discovering the strange world that is Michelle's cooking.  Since graduation three years ago, Michelle has remained one of my closest friends.  I'm currently working towards a PhD in Organsimal Biology & Anatomy at the University of Chicago.  As I navigate this new chapter in my life, Michelle helps me realize the little bits of humor in every day awkwardness and setbacks.  For instance, yes, I've had to deal with a lot of animal poop since I've started grad school.  BUT, if this trend continues, I'll likely be able to say that I've been pooped on by members of all the major taxonomic groups in vertebrates!  Michelle taught me to approach each day with a smile, even on days when your opossum has diarrhea."
     },
     {
       id: "2",
       type: "bridesmaid",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Delaney ",
+      image:"https://s3.amazonaws.com/paulmichelle2019-website-photos/delanie.jpg",
+      name: "Delaney Pfohl",
       bio: "My name is Delaney. Michelle and I met in college during a summer anatomy course in Rochester, NY, during which we became quick friends. Since then I have had the pleasure of living with Michelle for two years filled with lots of laughter, food, TV binge watching, the occasional drink, and more pink and glitter than I ever thought possible. One of my favorite memories with both Michelle and Paul was wine touring with the two of them in the on Cayuga Lake. A fun fact about me is that I have been to 17 countries (3 continents) and plan to visit many more!"
     },
     {
       id: "3",
       type: "bridesmaid",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Emily ",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/emily.png",
+      name: "Emily Bonin",
       bio: "My name is Emily and I am a physical therapist in Los Angeles, California. I met Michelle at Ithaca College during our summer anatomy course, where she was definitely the calmest out of all of us. My favorite memory of Michelle during school was our once-a-week tea and coloring nights, which kept me sane and balanced throughout the craziest years of PT school. Since graduating, my favorite memory of Michelle has been playing cross-country phone tag and never giving up until we finally get ahold of each other. A fun fact about me is that I grew up on a farm and spent a lot of time showing cows at county fairs and made it all the way to the National Dairy Quiz Bowl competition!"
     },
     {
       id: "4",
       type: "bridesmaid",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Sarah ",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/sarah.jpg",
+      name: "Sarah Milley",
       bio: "My name is Sarah and I’ve been friends with Michelle since middle school. Throughout my years of knowing her, we’ve made some great memories! One of my favorites has to be when her, Anhthi and I got all dressed up to go see a movie! We were in dresses and heels with full faces of make up, just to sit in a dark (and ultimately empty) theater! It seemed crazy at the time, but it was definitely the most fun I’ve had at a movie!"
     },
     {
       id: "5",
       type: "bridesmaid",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Anhthi ",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/anhthi.jpg",
+      name: "Anhthi Nguyen",
       bio: "My name is Anhthi and have been friends with Michelle and Sarah and since middle school! I recently joined the Salesian Sisters of St. John Bosco where I have the pleasure of working with many wonderful children! Prior to joining the Salesian Sisters I taught first grade CCD and helped my group of first graders to make their first communion! We had so much fun one weekend when we stayed at Sarah’s parents’ house on the Cape exploring lots of shops and getting henna tattoos that we sported with pride for the rest of the weekend!"
     },
     {
       id: "6",
       type: "bridesmaid",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Beth",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/beth.jpg",
+      name: "Beth Fournier",
       bio: "Hello everyone my name is Beth and I am Michelle’s cousin. Michelle and I grew up together; I can remember loving to swing on a huge circle swing at her old house. We always tried to swing as high as we could so we felt like we were flying. We would always catch up with very long conversations and I always look forward to hearing from her. One fun fact about me is that I studied abroad in Scotland for a semester, this was one experience I will never forget."
     },
     {
       id: "7",
       type: "bridesmaid",
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
-      name: "Annemarie ",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/annemarie.jpg",
+      name: "Annemarie Fournier",
       bio: "My name is Annemarie and I am one of Michelle’s cousins. I am also Beth’s older sister and work as a dietary aide. I remember swimming with Michelle in her backyard pool growing up and going to Niagra Falls just Aunt Nancy, Mom, Beth, Steven, Michelle and me! It was a blast! A fun fact about me is that I have a cat named Timmy."
     },
     {
@@ -494,11 +487,20 @@ export default {
     hero: {
       url: "https://s3.amazonaws.com/paulmichelle2019-website-photos/hero-photo.jpg"
     },
+    engagmentPhoto: {
+      url: 'https://s3.amazonaws.com/paulmichelle2019-website-photos/engagementPhoto.jpg'
+    },
+    howWeMet: {
+      url: 'https://s3.amazonaws.com/paulmichelle2019-website-photos/9.jpg'
+    }, 
+    whereAreWe: {
+      url: 'https://s3.amazonaws.com/paulmichelle2019-website-photos/40.jpg'
+    },
     aboutUs: [
-      "Hi we are Michelle and Paul, which you likely know if you are reading this! But in case you wanted to re-visit history here’s a little bit about how we got to be us today. We met in high school as freshman when we shared not two but three classes together; religion, biology, and history. And while Michelle and Paul paired together in class never resulted in much work getting done, it did result in a whole lot of fun! Flirting by the lockers, standing in the lunch line together, and always trying to stick a $20 in each other’s pockets were just a few of the crazy adventures that made up high school. We both headed out to upstate New York for college, with Michelle studying Occupational Therapy at Ithaca College and Paul studying Software Engineering at Rochester Institute of Technology.During college we both had some time to grow and learn, but after spending a summer together in Rochester NY before senior year we started to realize that we had each found the one special person in the world that we wanted to annoy for the rest of our lives! The remainder of college was filled with adventures exploring the vineyards of upstate New York, hiking the beautiful gorges of Ithaca, and of course hanging out with a few Phi Tau brothers."
+      "Hi we are Michelle and Paul, which you likely know if you are reading this! But in case you wanted to re-visit history here’s a little bit about how we got to be us today. We met in high school as freshmen when we shared not two but three classes together; religion, biology, and history. And while Michelle and Paul paired together in class never resulted in much work getting done, it did result in a whole lot of fun! Flirting by the lockers, standing in the lunch line together, and always trying to stick a $20 in each other’s pockets were just a few of the crazy adventures that made up high school. We both headed out to upstate New York for college, with Michelle studying Occupational Therapy at Ithaca College and Paul studying Software Engineering at Rochester Institute of Technology.During college we both had some time to grow and learn, but after spending a summer together in Rochester NY before senior year we started to realize that we had each found the one special person in the world that we wanted to annoy for the rest of our lives! The remainder of college was filled with adventures exploring the vineyards of upstate New York, hiking the beautiful gorges of Ithaca, and of course hanging out with a few Phi Tau brothers."
     ],
     today: ["Being done with college is a wild thought but since then Paul and Michelle have started to explore this idea of being “grown-ups” and are enjoying it! Michelle has been working in a sensory integration occupational therapy clinic and Paul has recently started working at Mass Mutual in the customer experience group. We have enjoyed being able to try new and different things now and loved our first official vacation trip together where we traveled to Thailand last winter!"],
-    theProposal: ["Firstly, Michelle would like you to know, she was on to him! It all started the day before Paul would actually end up proposing to Michelle. The weather was a typical New England December today with freezing rain and sleet in the forecast for the entire day. Paul however was undeterred by this weather as he had already seemed particularly dedicated to going ice skating since he brought up the idea of going skating a few days ago. Michelle asked Paul that morning if he was sure he still wanted to go ice skating but Paul was absolutely sure they should still go. Suspicious!! Off they went, first eating at a Chinese restaurant that offered the most interesting of fortune cookies: Michelle’s read, “What if you got what you always wanted?” while Paul’s read, “Take the next step.” Well needless to say, Michelle knew this was the night. However, when they arrived at the Frog Pond only to learn it had closed down…due to the terrible weather… Michelle thought Paul might just improvise. But no. Slightly surprised, Michelle actually told Paul she had thought he was being very suspicious. However, Paul’s Phi Tau background came to his rescue sticking with a mantra that existed long before that day, “Deny everything.” And that is exactly what he did! Sitting on the subway with the ring stuffed into his jeans pocked he asked Michelle, “See where would I even keep a ring, look at all these pockets of my jacket.” Suffice to say, Michelle fell for it. The next morning Paul asked if she still wanted to go ice skating and Michelle believing in small miracles (it was Christmas Eve morning and her parents said they didn’t need any help prepping for that evening??) agreed; choosing her less favorite jacket since she now knew it wasn’t happening yet. Not one hour later, Paul went from holding her hands while skating backwards to suddenly dropping to one knee and pulling a ring out of his pocket asking Michelle to marry him. With a tearful yes, Michelle and Paul were ready to start planning a wedding!"],
+    theProposal: ["Firstly, Michelle would like you to know, she was on to him! It all started the day before Paul would actually end up proposing to Michelle. The weather was a typical New England December day with freezing rain and sleet in the forecast for the entire day. Paul however was undeterred by this weather as he had already seemed particularly dedicated to going ice skating since he brought up the idea of going skating a few days ago. Michelle asked Paul that morning if he was sure he still wanted to go ice skating but Paul was absolutely sure they should still go. Suspicious!! Off they went, first eating at a Chinese restaurant that offered the most interesting of fortune cookies: Michelle’s read, “What if you got what you always wanted?” while Paul’s read, “Take the next step.” Well needless to say, Michelle knew this was the night. However, when they arrived at the Frog Pond only to learn it had closed down…due to the terrible weather… Michelle thought Paul might just improvise. But no. Slightly surprised, Michelle actually told Paul she had thought he was being very suspicious. However, Paul’s Phi Tau background came to his rescue sticking with a mantra that existed long before that day, “Deny everything.” And that is exactly what he did! Sitting on the subway with the ring stuffed into his jeans pocked he asked Michelle, “See where would I even keep a ring, look at all these pockets of my jacket.” Suffice to say, Michelle fell for it. The next morning Paul asked if she still wanted to go ice skating and Michelle believing in small miracles (it was Christmas Eve morning and her parents said they didn’t need any help prepping for that evening??) agreed; choosing her less favorite jacket since she now knew it wasn’t happening yet. Not one hour later, Paul went from holding her hands while skating backwards to suddenly dropping to one knee and pulling a ring out of his pocket asking Michelle to marry him. With a tearful yes, Michelle and Paul were ready to start planning a wedding!"],
     daysUntilTheWedding
   }
 };

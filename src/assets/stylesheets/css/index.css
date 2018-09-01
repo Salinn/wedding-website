@@ -1,6 +1,6 @@
 body, html {
   /* The image used */
-  background-image: url("https://s3.amazonaws.com/paulmichelle-2019-wedding-photos/backgroundImage.png");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a3/Boston_night_pano1.jpg");
   /* Full height */
   height: 100%;
   /* Center and scale the image nicely */
@@ -27,11 +27,11 @@ body, html {
   background-color: #003c57; }
 
 header {
-  background-color: #f8f9fa; }
+  background-color: #fffbc4; }
   header h1 {
-    color: #003c57; }
-  header h6 {
-    color: #003c57;
+    color: #00cccc; }
+  header h4 {
+    color: #00cccc;
     margin: 0.5rem; }
 
 .header-links {
@@ -67,6 +67,7 @@ header {
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
+  --header-text-colo: #00cccc;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
@@ -2935,7 +2936,7 @@ tbody.collapse.show {
     color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.5); }
+  color: #00cccc; }
   .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
     color: rgba(0, 0, 0, 0.7); }
   .navbar-light .navbar-nav .nav-link.disabled {
@@ -2948,14 +2949,14 @@ tbody.collapse.show {
   color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
+  color: #00cccc;
   border-color: rgba(0, 0, 0, 0.1); }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%2300cccc' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
 
 .navbar-light .navbar-text {
-  color: rgba(0, 0, 0, 0.5); }
+  color: #00cccc; }
   .navbar-light .navbar-text a {
     color: rgba(0, 0, 0, 0.9); }
     .navbar-light .navbar-text a:hover, .navbar-light .navbar-text a:focus {
@@ -6077,5 +6078,3 @@ a.text-dark:hover, a.text-dark:focus {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-
-/*# sourceMappingURL=index.css.map */

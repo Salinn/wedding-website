@@ -17,7 +17,7 @@ const Header = (props) => {
         <h4>#DarraghClan</h4>
       </div>
     </div>
-    <nav className="navbar navbar-expand-md navbar-light bg-light">
+    <nav className="navbar navbar-expand-md navbar-light">
       <button className="navbar-toggler m-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
@@ -30,7 +30,7 @@ const Header = (props) => {
           </li>
           <li className="nav-item">
             <Link to="/weddingParty" className="nav-link">
-              Wedding-Party
+              Wedding Party
               </Link>
           </li>
           <li className="nav-item">
@@ -40,7 +40,7 @@ const Header = (props) => {
           </li>
           <li className="nav-item">
             <Link to="/hotels" className="nav-link col-auto">
-              Accomedations
+              Accommodations
               </Link>
           </li>
           <li className="nav-item">
@@ -54,12 +54,12 @@ const Header = (props) => {
               </Link>
           </li>
           <li className="nav-item">
-            <Link to="#" className="nav-link col-auto">
+            <Link to="/comingSoon" className="nav-link col-auto">
               Registry
               </Link>
           </li>
           <li className="nav-item">
-            <Link to="#" className="nav-link col-auto">
+            <Link to="/comingSoon" className="nav-link col-auto">
               RSVP
               </Link>
           </li>

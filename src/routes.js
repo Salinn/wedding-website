@@ -7,6 +7,7 @@ import Hotels from './containers/Hotels';
 import Activities from './containers/Activities';
 import Photos from './containers/Photos';
 import Dashboard from './containers/Dashboard';
+import ComingSoon from './components/ComingSoon'
 
 export default () => {
     return (
@@ -18,6 +19,7 @@ export default () => {
             <Route path='/activities' component={Activities} />
             <Route path='/photos' component={Photos} />
             <Route path='/dashboard' component={Dashboard} />
+            <Route path='/comingSoon' component={ComingSoon} />
         </Switch>
     )
 }
