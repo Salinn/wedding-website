@@ -9,6 +9,7 @@ const Photo = ({ index, image, content }) => {
             <img className='card-img-top img-fluid'
                  data-toggle="modal"
                  data-target={`#photo-${index}`}
+                 alt='Paul and Michelle'
                  src={image} />
         </div>
     );

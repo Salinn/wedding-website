@@ -5,7 +5,7 @@ const Location = () => {
         <div className='card'>
             <div className='row'>
                 <div className='col-12 col-sm-6 col-lg-8'>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15532.32562240517!2d-71.05883595065917!3d42.36120107606381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3706cdbf4376d%3A0x334887160919a49!2s101+Harborside+Dr%2C+Boston%2C+MA+02128!5e0!3m2!1sen!2sus!4v1535250219001" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
+                    <iframe title="Hyatt Regency on google maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15532.32562240517!2d-71.05883595065917!3d42.36120107606381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3706cdbf4376d%3A0x334887160919a49!2s101+Harborside+Dr%2C+Boston%2C+MA+02128!5e0!3m2!1sen!2sus!4v1535250219001" width="100%" height="300" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div className='col-12 col-sm-6 col-lg-4'>
                     <div className='pt-5 pb-3 pl-3'>

@@ -1,5 +1,5 @@
 import initialState from '../store/initialState';
-import * as types from '../actions/ActionTypes';
+// import * as types from '../actions/ActionTypes';
 
 const PhotosReducer = (state=initialState.events, action) => {
     switch (action.type) {

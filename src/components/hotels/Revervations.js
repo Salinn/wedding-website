@@ -33,7 +33,7 @@ const Revervations = () => {
                         </div>
                     </div>
                     <div className='col-12 col-md-6'>
-                        <img className='img-fluid' src='http://mccallisterphoto.com/wp-content/uploads/2018/04/2018-04-19_0001-4172861701.jpg' />
+                        <img className='img-fluid' src='http://mccallisterphoto.com/wp-content/uploads/2018/04/2018-04-19_0001-4172861701.jpg' alt="Hyatt Hotel" />
                     </div>
                 </div>
             </div>

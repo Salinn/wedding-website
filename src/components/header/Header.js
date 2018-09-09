@@ -11,7 +11,7 @@ const Header = (props) => {
         <h4>Boston, MA</h4>
       </div>
       <div className="col-md-6 order-md-2 text-md-center col-xs-12 order-1 text-center">
-        <h1 className="App-title display-4">Paul & Michelle</h1>
+        <h1 className="App-title display-4">Michelle & Paul</h1>
       </div>
       <div className="col-md-3 order-md-3 text-md-right col-xs-12 order-3 text-center">
         <h4>#DarraghClan</h4>

@@ -4,13 +4,13 @@ import moment from 'moment'
 
 const today = moment();
 const ourWeddingDate = moment("2019-07-06", "YYYY-MM-DD");
-const ourMoveInDate = moment("2019-08-01", "YYYY-MM-DD");
-const otaStartDate = moment("2016-11-30", "YYYY-MM-DD");
-const mmStartDate = moment("2017-10-16", "YYYY-MM-DD");
+// const ourMoveInDate = moment("2019-08-01", "YYYY-MM-DD");
+// const otaStartDate = moment("2016-11-30", "YYYY-MM-DD");
+// const mmStartDate = moment("2017-10-16", "YYYY-MM-DD");
 const daysUntilTheWedding = ourWeddingDate.diff(today, "days");
-const daysUntilTheMoveIn = ourMoveInDate.diff(today, "days");
-const timeWorkedAtOTA = today.diff(otaStartDate, "years");
-const timeWorkedAtMM = today.diff(mmStartDate, "months");
+// const daysUntilTheMoveIn = ourMoveInDate.diff(today, "days");
+// const timeWorkedAtOTA = today.diff(otaStartDate, "years");
+// const timeWorkedAtMM = today.diff(mmStartDate, "months");
 
 const photosOfUs = []
 for(let i=1; i < 84; i++) {
@@ -41,7 +41,7 @@ export default {
     {
       title: "Boston Duck Tour",
       content:
-        "Looking to explore Boston a bit? Why not checkout Boston from a bus and a boat! On the duck tours they will show Boston from a number of different angles, give some history about Boston and crack a few jokes.",
+        "Looking to explore Boston a bit? Why not check out Boston from a bus and a boat! On the duck tours they will show Boston from a number of different angles, give some history about Boston and crack a few jokes.",
       photo:
         "http://www.bostonducktours.com/wp-content/uploads/2015/07/hp3.jpg",
       website: "http://www.bostonducktours.com/",
@@ -58,7 +58,7 @@ export default {
     {
       title: "Greenway",
       content:
-        "Looking for an enjoyable hike through boston? Follow the old highway that was turned into a park! There are events popping up along the route like the Trillium beer garden to lawn games.",
+        "Looking for an enjoyable hike through Boston? Follow the old highway that was turned into a park! There are events popping up along the route like the Trillium beer garden to lawn games.",
       photo:
         "https://www.rosekennedygreenway.org/files/cache/984158103c5ef27096eee15782673a55_f2183.jpg",
       website: "https://www.rosekennedygreenway.org/",
@@ -91,28 +91,28 @@ export default {
     },
     {
       title: "Sam Adams Brewery",
-      content: "Probably the most well known brewery in Boston and a great thing to check of your list of tihngs to do while you are here!",
+      content: "Probably the most well known brewery in Boston and a great thing to check off your list of tihngs to do while you are here!",
       photo: "http://www.samueladams.com//app_media/SamAdamsRedux/Modules/Split-Content-Hero-Block-Images/Brewery-Image.file",
       website: "http://www.samueladams.com/",
       price: "Free minus the cost of beer"
     },
     {
       title: "Harpoon Brewery",
-      content: "One of Paul's favorite breweries in the Boston area. Paul highly recommends doing the tour where you can sample all of their beers, eat delicious pretzal and learn a little more about the process of brewing a great beer.",
+      content: "One of Paul's favorite breweries in the Boston area. Paul highly recommends doing the tour where you can sample all of their beers, eat delicious pretzel and learn a little more about the process of brewing a great beer.",
       photo: "",
       website: "https://www.harpoonbrewery.com/",
-      price: ""
+      price: "5"
     },
     {
       title: "Trillium Brewery",
-      content: "A great local brewery that is one of Paul's favorites. The only tip he has is to checkout the Boston locations as the canton one is a bit outside of Boston.",
+      content: "A great local brewery that is one of Paul's favorites. The only tip he has is to checkout the Boston locations as the Canton one is a bit outside of Boston.",
       photo: "",
       website: "http://www.trilliumbrewing.com/",
-      price: ""
+      price: "Free"
     },
     {
       title: "Trillium Beer Garden",
-      content: "Looking to enjoy the wonderful weather and a beer? One of Paul's favorite spots to do both is the trillium beer garden which is about a block away from work!",
+      content: "Looking to enjoy the wonderful weather and a beer? One of Paul's favorite spots to do both is the Trillium Beer Garden which is about a block away from work!",
       photo: "https://static1.squarespace.com/static/5527dc92e4b04be388ca48e4/t/5ae0a36baa4a99e2b64183b6/1524671343661/trillium_garden_glass-fence_web.jpg?format=2500w",
       website: "http://www.trilliumbrewing.com/greenway-garden/",
       price: "Free minus the cost of beer"
@@ -127,7 +127,7 @@ export default {
     {
       title: "Top of the hub",
       content:
-        "All we have to say is great food, amazing view, a tad expensive! We went here for Boston's restaurant week and highly recommend it if the prices aren't to scary.",
+        "All we have to say is great food, amazing view, a tad expensive! We went here for Boston's restaurant week and highly recommend it if the prices aren't too scary.",
       photo:
         "http://topofthehub.net/wp-content/uploads/2016/06/headerimage21.jpg",
       website: "http://topofthehub.net/",
@@ -136,7 +136,7 @@ export default {
     {
       title: "Faneuil Hall",
       content:
-        "A great place to wander around before doing the freedom trail, some great food, shops and performers with something new to checkout every time!",
+        "A great place to wander around before walking the Freedom Trail, some great food, shops and performers with something new to checkout every time!",
       photo:
         "https://faneuilhallmarketplace.com/wp-content/uploads/sites/203/2017/10/things-to-do-in-boston-mall-faneuil-hall-1024x640.jpg",
       website: "https://faneuilhallmarketplace.com/",
@@ -295,7 +295,7 @@ export default {
     {
       id: "1",
       type: "bridesmaid",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSphCTPOIzqwX1tH_17IaYPhF39U68HyDjfY3UGdT9QHt_T5qtd",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/aileen.jpg",
       name: "Aileen Tartanian",
       bio: "Although Michelle and I met freshman year at IC (Ithaca College), we didn't really become friends until we were housemates for the PT/OT summer human anatomy course in 2014.  We bonded immediately; laughing and crying during hours of studying, wrangling (possibly rabid) kittens, dishing on boy drama, and discovering the strange world that is Michelle's cooking.  Since graduation three years ago, Michelle has remained one of my closest friends.  I'm currently working towards a PhD in Organsimal Biology & Anatomy at the University of Chicago.  As I navigate this new chapter in my life, Michelle helps me realize the little bits of humor in every day awkwardness and setbacks.  For instance, yes, I've had to deal with a lot of animal poop since I've started grad school.  BUT, if this trend continues, I'll likely be able to say that I've been pooped on by members of all the major taxonomic groups in vertebrates!  Michelle taught me to approach each day with a smile, even on days when your opossum has diarrhea."
     },
@@ -304,7 +304,7 @@ export default {
       type: "bridesmaid",
       image:"https://s3.amazonaws.com/paulmichelle2019-website-photos/delanie.jpg",
       name: "Delaney Pfohl",
-      bio: "My name is Delaney. Michelle and I met in college during a summer anatomy course in Rochester, NY, during which we became quick friends. Since then I have had the pleasure of living with Michelle for two years filled with lots of laughter, food, TV binge watching, the occasional drink, and more pink and glitter than I ever thought possible. One of my favorite memories with both Michelle and Paul was wine touring with the two of them in the on Cayuga Lake. A fun fact about me is that I have been to 17 countries (3 continents) and plan to visit many more!"
+      bio: "My name is Delaney. Michelle and I met in college during a summer anatomy course in Rochester, NY, during which we became quick friends. Since then I have had the pleasure of living with Michelle for two years filled with lots of laughter, food, TV binge watching, the occasional drink, and more pink and glitter than I ever thought possible. One of my favorite memories with both Michelle and Paul was wine touring with the two of them on Cayuga Lake. A fun fact about me is that I have been to 17 countries (3 continents) and plan to visit many more!"
     },
     {
       id: "3",
@@ -325,7 +325,7 @@ export default {
       type: "bridesmaid",
       image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/anhthi.jpg",
       name: "Anhthi Nguyen",
-      bio: "My name is Anhthi and have been friends with Michelle and Sarah and since middle school! I recently joined the Salesian Sisters of St. John Bosco where I have the pleasure of working with many wonderful children! Prior to joining the Salesian Sisters I taught first grade CCD and helped my group of first graders to make their first communion! We had so much fun one weekend when we stayed at Sarah’s parents’ house on the Cape exploring lots of shops and getting henna tattoos that we sported with pride for the rest of the weekend!"
+      bio: "My name is Anhthi and I have been friends with Michelle and Sarah since middle school! I recently joined the Salesian Sisters of St. John Bosco where I have the pleasure of working with many wonderful children! Prior to joining the Salesian Sisters I taught first grade CCD and helped my group of first graders to make their first communion! We had so much fun one weekend when we stayed at Sarah’s parents’ house on the Cape exploring lots of shops and getting henna tattoos that we sported with pride for the rest of the weekend!"
     },
     {
       id: "6",
@@ -353,14 +353,14 @@ export default {
       type: "groomsMen",
       image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/brandonNieves.jpg",
       name: "Brandon Nieves",
-      bio: "My name is Brandon Nieves and I met Paul at RIT. I ended up joining the same fraternity as Paul, ΦΚΤ, and later on he became my big brother. We connected very well and since then we became best friends ever since. My favorite memories of Paul and I have to include of our long walks on the beach, going on picnics and our favorite, cheap dinner and watch a rom-com while drinking wine together. I like to think myself as an entrepreneur. Jack of all trades, master of none. Future pilot for the United States Marine Corps.Semper Fidelis"
+      bio: "My name is Brandon Nieves and I met Paul at RIT. I ended up joining the same fraternity as Paul, ΦΚΤ, and later on he became my big brother. We connected very well and since then we became best friends ever since. My favorite memories of Paul and I have to include our long walks on the beach, going on picnics, and our favorite: cheap dinner and watching a rom-com while drinking wine together. I like to think of myself as an entrepreneur, jack of all trades, master of none. Future pilot for the United States Marine Corps.Semper Fidelis"
     },
     {
       id: "10",
       type: "groomsMen",
       image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/nickCifranic.png",
       name: "Nick Cifranic",
-      bio: "My Name is Nick. I met Paul at a dirty fraternity house party – and our standards have been the same since. Paul and I have been through thick and thin (no pun intended) – whether that’s traveling through Switzerland, Germany, Dubai, or just simply getting lost in the tunnels at RIT. My favorite memory of us was our Junior year when we released unveiled the RIT bikeshare program. A fun fact about myself – I witnessed Paul murder a baby black bear."
+      bio: "My name is Nick. I met Paul at a dirty fraternity house party – and our standards have been the same since. Paul and I have been through thick and thin (no pun intended) – whether that’s traveling through Switzerland, Germany, Dubai, or just simply getting lost in the tunnels at RIT. My favorite memory of us was our Junior year when we released/unveiled the RIT bikeshare program. A fun fact about myself – I witnessed Paul murder a baby black bear."
     },
     {
       id: "11",
@@ -374,14 +374,14 @@ export default {
       type: "groomsMen",
       image: "https://scontent.fbos1-2.fna.fbcdn.net/v/t1.0-9/13179361_10208676812503009_3478896142035633467_n.jpg?_nc_cat=0&oh=e4353b392abb55ded4f0caf4551893ba&oe=5C028D84",
       name: "Mason Scioti",
-      bio: ""
+      bio: "My name is Mason Sciotti, and I've been fortunate enough to have known Paul since fourth grade. I moved to North Attleboro mid school year, and as anyone will tell you, making new friends is hard. Paul was one of my first friends in North Attleboro, and remains one of my lifelong best friends. Ever since I first saw the both of them together in high school, I've known that Paul and Michelle would marry each other. I couldn't be happier for some of my best friends. Also, called it."
     }, 
     {
       id: "13",
       type: "groomsMen",
       image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/jaimeDarragh.jpg",
       name: "Jamie Darragh",
-      bio: "Hi I am Jamie, I am Paul's younger brother. Some of my favorite memories with Paul where when we use to go visit our grandparents for a week at a time in New Hampshire to ski in the winter and go swimming in the summer. One fun fact about me is that I got to travel all over the US as a truck driver with my trusted companion Luna."
+      bio: "Hi I am Jamie, I am Paul's younger brother. Some of my favorite memories with Paul are when we used to visit our grandparents for a week at a time in New Hampshire to ski in the winter and go swimming in the summer. One fun fact about me is that I got to travel all over the US as a truck driver with my trusted companion Luna."
     },
     {
       id: "14",
@@ -497,7 +497,7 @@ export default {
       url: 'https://s3.amazonaws.com/paulmichelle2019-website-photos/40.jpg'
     },
     aboutUs: [
-      "Hi we are Michelle and Paul, which you likely know if you are reading this! But in case you wanted to re-visit history here’s a little bit about how we got to be us today. We met in high school as freshmen when we shared not two but three classes together; religion, biology, and history. And while Michelle and Paul paired together in class never resulted in much work getting done, it did result in a whole lot of fun! Flirting by the lockers, standing in the lunch line together, and always trying to stick a $20 in each other’s pockets were just a few of the crazy adventures that made up high school. We both headed out to upstate New York for college, with Michelle studying Occupational Therapy at Ithaca College and Paul studying Software Engineering at Rochester Institute of Technology.During college we both had some time to grow and learn, but after spending a summer together in Rochester NY before senior year we started to realize that we had each found the one special person in the world that we wanted to annoy for the rest of our lives! The remainder of college was filled with adventures exploring the vineyards of upstate New York, hiking the beautiful gorges of Ithaca, and of course hanging out with a few Phi Tau brothers."
+      "Hi we are Michelle and Paul, which you likely know if you are reading this! But in case you wanted to re-visit history here’s a little bit about how we got to be us today. We met in high school as freshmen when we shared not two but three classes together; religion, biology, and history. And while Michelle and Paul paired together in class never resulted in much work getting done, it did result in a whole lot of fun! Flirting by the lockers, standing in the lunch line together, and always trying to stick a $20 bill in each other’s pockets were just a few of the crazy adventures that made up high school. We both headed out to upstate New York for college, with Michelle studying Occupational Therapy at Ithaca College and Paul studying Software Engineering at Rochester Institute of Technology.During college we both had some time to grow and learn, but after spending a summer together in Rochester NY before senior year we started to realize that we had each found the one special person in the world that we wanted to annoy for the rest of our lives! The remainder of college was filled with adventures exploring the vineyards of upstate New York, hiking the beautiful gorges of Ithaca, and of course hanging out with a few Phi Tau brothers."
     ],
     today: ["Being done with college is a wild thought but since then Paul and Michelle have started to explore this idea of being “grown-ups” and are enjoying it! Michelle has been working in a sensory integration occupational therapy clinic and Paul has recently started working at Mass Mutual in the customer experience group. We have enjoyed being able to try new and different things now and loved our first official vacation trip together where we traveled to Thailand last winter!"],
     theProposal: ["Firstly, Michelle would like you to know, she was on to him! It all started the day before Paul would actually end up proposing to Michelle. The weather was a typical New England December day with freezing rain and sleet in the forecast for the entire day. Paul however was undeterred by this weather as he had already seemed particularly dedicated to going ice skating since he brought up the idea of going skating a few days ago. Michelle asked Paul that morning if he was sure he still wanted to go ice skating but Paul was absolutely sure they should still go. Suspicious!! Off they went, first eating at a Chinese restaurant that offered the most interesting of fortune cookies: Michelle’s read, “What if you got what you always wanted?” while Paul’s read, “Take the next step.” Well needless to say, Michelle knew this was the night. However, when they arrived at the Frog Pond only to learn it had closed down…due to the terrible weather… Michelle thought Paul might just improvise. But no. Slightly surprised, Michelle actually told Paul she had thought he was being very suspicious. However, Paul’s Phi Tau background came to his rescue sticking with a mantra that existed long before that day, “Deny everything.” And that is exactly what he did! Sitting on the subway with the ring stuffed into his jeans pocked he asked Michelle, “See where would I even keep a ring, look at all these pockets of my jacket.” Suffice to say, Michelle fell for it. The next morning Paul asked if she still wanted to go ice skating and Michelle believing in small miracles (it was Christmas Eve morning and her parents said they didn’t need any help prepping for that evening??) agreed; choosing her less favorite jacket since she now knew it wasn’t happening yet. Not one hour later, Paul went from holding her hands while skating backwards to suddenly dropping to one knee and pulling a ring out of his pocket asking Michelle to marry him. With a tearful yes, Michelle and Paul were ready to start planning a wedding!"],

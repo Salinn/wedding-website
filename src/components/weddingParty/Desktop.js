@@ -16,7 +16,7 @@ const DeskTop = ({ weddingParty }) => {
     }, {});
 
     const almostSortedParty = Object.keys(pairedWeddingParty).map(key => {
-        const [bridesMaid, groomsMan, ...other] = pairedWeddingParty[key]
+        const [bridesMaid, groomsMan] = pairedWeddingParty[key]
         return (
             <div className="card-deck">
                 {bridesMaid}
