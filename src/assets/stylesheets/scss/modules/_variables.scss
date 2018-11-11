@@ -2,6 +2,32 @@ $header-background: #fffbc4;
 $header-text-color: #00cccc;
 $white: #fff;
 
+@font-face {
+    font-family: bosk;
+    src: url('../../typography/Bosk.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: setta;
+    src: url('../../typography/Parisienne-Regular.ttf') ;
+}
+
+@font-face {
+    font-family: simple;
+    src: url('../../typography/SimpleRegular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Arturo-Regular';
+    src: url('../../typography/Arturo-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Arturo-ExtraLight';
+    src: url('../../typography/Arturo-ExtraLight.ttf') format("truetype");
+}
+
+
 $xs: 0;
 $sm: 576px;
 $md: 768px;

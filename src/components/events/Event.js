@@ -14,17 +14,18 @@ const Event = ({ title, content, location, date, time, photo, index }) => {
     )
 
     const cardPhoto = (
-        <div className='col-12 col-sm-6 col-lg-8'>
+        <div className='col-12 col-sm-6 col-lg-7'>
             <img className='img-fluid' src={photo} alt={title} />
         </div>
     )
 
     const cardInfo = (
-        <div className='col-12 col-sm-6 col-lg-4 d-flex align-items-center'>
+        <div className='col-12 col-sm-6 col-lg-5 d-flex align-items-center'>
             <div className='card-body container text-left'>
                 <h1 className='text-center display-3'><b>{title}</b></h1>
                 <br />
-                <h1 className='text-center h2'>{date}, {time}</h1>
+                <h1 className='text-center h2'>{date}</h1>
+                <h1 className='text-center h2'>{time}</h1>
                 <br />
                 <h5 className='text-center h2'>{content}</h5>
                 <br />

@@ -5,11 +5,13 @@ header {
 
   h1 {
     color: $header-text-color;
+    font-family: 'setta';
   }
 
-  h4 {
+  h6 {
     color: $header-text-color;
     margin: 0.5rem;
+    font-family: 'simple';
   }
 }
 
@@ -19,6 +21,7 @@ header {
 
 .header-links {
   text-align: center;
+    font-family: 'simple';
 }
 
 .nav-item {

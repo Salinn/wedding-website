@@ -6,7 +6,7 @@ import Activity from "./Activity";
 
 const Activities = ({ activities }) => {
     console.log(activities);
-    const activitiesGenerated = activities.map(activity => <Activity { ...activity }/>);
+    const activitiesGenerated = activities.map((activity, index) => <Activity key={index} { ...activity }/>);
 
     return <div className="container text-center">
         <Title content="Things to do in Boston" />

@@ -148,9 +148,9 @@ export default {
       id: 1,
       photo: "https://img.etsystatic.com/il/06f4f2/844471562/il_fullxfull.844471562_4r88.jpg?version=0",
       date: "Sunday April 7th, 2019",
-      time: "TBD",
+      time: "Time TBD",
       location: {
-        label: "TBD",
+        label: "Location TBD",
         link: ""
       },
       title: "Bridal Shower",
@@ -160,9 +160,9 @@ export default {
       id: 2,
       photo: "https://apis.xogrp.com/media-api/images/eb8af8fd-55fa-43a2-b5fd-52f8c02b8569~sc_768.576.fit?quality=60",
       date: "Friday July 5th, 2019",
-      time: "TBD",
+      time: "Time TBD",
       location: {
-        label: "TBD",
+        label: "Location TBD",
         link: ""
       },
       title: "Rehearsal Dinner",
@@ -302,7 +302,7 @@ export default {
     {
       id: "2",
       type: "bridesmaid",
-      image:"https://s3.amazonaws.com/paulmichelle2019-website-photos/delanie.jpg",
+      image:"https://s3.amazonaws.com/paulmichelle2019-website-photos/delanie.png",
       name: "Delaney Pfohl",
       bio: "My name is Delaney. Michelle and I met in college during a summer anatomy course in Rochester, NY, during which we became quick friends. Since then I have had the pleasure of living with Michelle for two years filled with lots of laughter, food, TV binge watching, the occasional drink, and more pink and glitter than I ever thought possible. One of my favorite memories with both Michelle and Paul was wine touring with the two of them on Cayuga Lake. A fun fact about me is that I have been to 17 countries (3 continents) and plan to visit many more!"
     },
@@ -330,21 +330,21 @@ export default {
     {
       id: "6",
       type: "bridesmaid",
-      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/beth.jpg",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/beth.png",
       name: "Beth Fournier",
       bio: "Hello everyone my name is Beth and I am Michelle’s cousin. Michelle and I grew up together; I can remember loving to swing on a huge circle swing at her old house. We always tried to swing as high as we could so we felt like we were flying. We would always catch up with very long conversations and I always look forward to hearing from her. One fun fact about me is that I studied abroad in Scotland for a semester, this was one experience I will never forget."
     },
     {
       id: "7",
       type: "bridesmaid",
-      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/annemarie.jpg",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/annemarie.png",
       name: "Annemarie Fournier",
       bio: "My name is Annemarie and I am one of Michelle’s cousins. I am also Beth’s older sister and work as a dietary aide. I remember swimming with Michelle in her backyard pool growing up and going to Niagra Falls just Aunt Nancy, Mom, Beth, Steven, Michelle and me! It was a blast! A fun fact about me is that I have a cat named Timmy."
     },
     {
       id: "8",
       type: "groomsMen",
-      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/mattSmith.jpg",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/mattSmith.png",
       name: "Matt Smith",
       bio: "Hey everyone my name is Matt Smith, I met Paul at Bishop Feehan High School during our sophomore year, we enjoy cooking, making pizza, stroking raw duck and using Matt’s shoulder as Paul’s arm rest. One of my favorite moments with Paul is when he was my armrest for prom pictures. A fun fact about myself is I don’t know any songs off the top of my head about trucks but I do know how to play one about a tractor."
     },
@@ -365,30 +365,30 @@ export default {
     {
       id: "11",
       type: "groomsMen",
-      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/bryanHarper.jpg",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/bryanHarper.png",
       name: "Bryan Harper",
-      bio: "My name is Bryan Harper. I met Paul at RIT, where we b̶e̶c̶a̶m̶e̶ ̶c̶o̶n̶n̶o̶i̶s̶s̶e̶u̶r̶s̶ ̶o̶f̶ ̶m̶e̶d̶i̶o̶c̶r̶e̶ ̶b̶o̶u̶r̶b̶o̶n̶ attended college. My favorite memory with Paul was being challenged to eat atomic wings and sharing the suffering that ensued. A fun fact about me is that I can make convincing cricket sounds, especially during awkward silences."
+      bio: "My name is Bryan Harper. I met Paul at RIT, where we <strike>became connoisseurs of mediocre bourbon</strike> attended college. My favorite memory with Paul was being challenged to eat atomic wings and sharing the suffering that ensued. A fun fact about me is that I can make convincing cricket sounds, especially during awkward silences."
     },
     {
       id: "12",
       type: "groomsMen",
-      image: "https://scontent.fbos1-2.fna.fbcdn.net/v/t1.0-9/13179361_10208676812503009_3478896142035633467_n.jpg?_nc_cat=0&oh=e4353b392abb55ded4f0caf4551893ba&oe=5C028D84",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/masonSciotti.png",
       name: "Mason Scioti",
       bio: "My name is Mason Sciotti, and I've been fortunate enough to have known Paul since fourth grade. I moved to North Attleboro mid school year, and as anyone will tell you, making new friends is hard. Paul was one of my first friends in North Attleboro, and remains one of my lifelong best friends. Ever since I first saw the both of them together in high school, I've known that Paul and Michelle would marry each other. I couldn't be happier for some of my best friends. Also, called it."
     }, 
     {
       id: "13",
       type: "groomsMen",
-      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/jaimeDarragh.jpg",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/jaimeDarragh.png",
       name: "Jamie Darragh",
       bio: "Hi I am Jamie, I am Paul's younger brother. Some of my favorite memories with Paul are when we used to visit our grandparents for a week at a time in New Hampshire to ski in the winter and go swimming in the summer. One fun fact about me is that I got to travel all over the US as a truck driver with my trusted companion Luna."
     },
     {
       id: "14",
       type: "groomsMen",
-      image: "https://scontent.fbos1-2.fna.fbcdn.net/v/t1.0-9/36766555_10209682229131390_6055167455087558656_o.jpg?_nc_cat=0&oh=487391bec220c699d71a5b0dd8b21bec&oe=5BF7D31E",
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/steveDenison.png",
       name: "Steven Denison",
-      bio: ""
+      bio: "<img src='http://78.media.tumblr.com/tumblr_memiirCLKW1rek337o1_500.gif?fbclid=IwAR1WS8Y1-cyA1djsoAanpGQ319WqhyvRHDw7iPQ7E0A2hvRy7_3462SiMqA' /> <br /> Why? Because I am a god damn stallion!"
     }
   ],
   dashboard: {

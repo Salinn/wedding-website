@@ -7,14 +7,14 @@ const Header = (props) => {
   return <header className="container-fluid">
     <div className="row header-top pt-3">
       <div className="col-md-3 order-md-1 text-md-left col-xs-12 order-2 text-center">
-        <h4>July 6th 2019</h4>
-        <h4>Boston, MA</h4>
+        <h6>July 6th 2019</h6>
+        <h6>Boston, MA</h6>
       </div>
       <div className="col-md-6 order-md-2 text-md-center col-xs-12 order-1 text-center">
-        <h1 className="App-title display-4">Michelle & Paul</h1>
+        <h1 className="App-title display-1">Michelle & Paul</h1>
       </div>
       <div className="col-md-3 order-md-3 text-md-right col-xs-12 order-3 text-center">
-        <h4>#DarraghClan</h4>
+        <h6>#DarraghClan</h6>
       </div>
     </div>
     <nav className="navbar navbar-expand-md navbar-light">
@@ -54,9 +54,9 @@ const Header = (props) => {
               </Link>
           </li>
           <li className="nav-item">
-            <Link to="/comingSoon" className="nav-link col-auto">
+            <a target="_blank" href="https://www.zola.com/registry/paulandmichelle2019" className="nav-link col-auto">
               Registry
-              </Link>
+              </a>
           </li>
           <li className="nav-item">
             <Link to="/comingSoon" className="nav-link col-auto">
