@@ -295,16 +295,16 @@ export default {
     {
       id: "1",
       type: "bridesmaid",
-      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/aileen.jpg",
-      name: "Aileen Tartanian",
-      bio: "Although Michelle and I met freshman year at IC (Ithaca College), we didn't really become friends until we were housemates for the PT/OT summer human anatomy course in 2014.  We bonded immediately; laughing and crying during hours of studying, wrangling (possibly rabid) kittens, dishing on boy drama, and discovering the strange world that is Michelle's cooking.  Since graduation three years ago, Michelle has remained one of my closest friends.  I'm currently working towards a PhD in Organsimal Biology & Anatomy at the University of Chicago.  As I navigate this new chapter in my life, Michelle helps me realize the little bits of humor in every day awkwardness and setbacks.  For instance, yes, I've had to deal with a lot of animal poop since I've started grad school.  BUT, if this trend continues, I'll likely be able to say that I've been pooped on by members of all the major taxonomic groups in vertebrates!  Michelle taught me to approach each day with a smile, even on days when your opossum has diarrhea."
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/delanie.png",
+      name: "Delaney Pfohl",
+      bio: "My name is Delaney. Michelle and I met in college during a summer anatomy course in Rochester, NY, during which we became quick friends. Since then I have had the pleasure of living with Michelle for two years filled with lots of laughter, food, TV binge watching, the occasional drink, and more pink and glitter than I ever thought possible. One of my favorite memories with both Michelle and Paul was wine touring with the two of them on Cayuga Lake. A fun fact about me is that I have been to 17 countries (3 continents) and plan to visit many more!"
     },
     {
       id: "2",
       type: "bridesmaid",
-      image:"https://s3.amazonaws.com/paulmichelle2019-website-photos/delanie.png",
-      name: "Delaney Pfohl",
-      bio: "My name is Delaney. Michelle and I met in college during a summer anatomy course in Rochester, NY, during which we became quick friends. Since then I have had the pleasure of living with Michelle for two years filled with lots of laughter, food, TV binge watching, the occasional drink, and more pink and glitter than I ever thought possible. One of my favorite memories with both Michelle and Paul was wine touring with the two of them on Cayuga Lake. A fun fact about me is that I have been to 17 countries (3 continents) and plan to visit many more!"
+      image: "https://s3.amazonaws.com/paulmichelle2019-website-photos/aileen.jpg",
+      name: "Aileen Tartanian",
+      bio: "Although Michelle and I met freshman year at IC (Ithaca College), we didn't really become friends until we were housemates for the PT/OT summer human anatomy course in 2014.  We bonded immediately; laughing and crying during hours of studying, wrangling (possibly rabid) kittens, dishing on boy drama, and discovering the strange world that is Michelle's cooking.  Since graduation three years ago, Michelle has remained one of my closest friends.  I'm currently working towards a PhD in Organsimal Biology & Anatomy at the University of Chicago.  As I navigate this new chapter in my life, Michelle helps me realize the little bits of humor in every day awkwardness and setbacks.  For instance, yes, I've had to deal with a lot of animal poop since I've started grad school.  BUT, if this trend continues, I'll likely be able to say that I've been pooped on by members of all the major taxonomic groups in vertebrates!  Michelle taught me to approach each day with a smile, even on days when your opossum has diarrhea."
     },
     {
       id: "3",
@@ -395,6 +395,26 @@ export default {
     displaying: "weddingParty",
     row: {}
   },
+  registeries: [
+    {
+      name: "",
+      photo: "https://www.myregistry.com/LP/Partner/Macys/Images/MacyLOGO.png",
+      url: 'https://www.macys.com/wgl/registry/guest/6990244',
+      alt: "Macy's registry link",
+    },
+    {
+      name: "",
+      photo: 'https://d28m5bx785ox17.cloudfront.net/v1/img/-Y1JlqqN2s6M0FtcxkiWm5FGIMGKvqgkYKlnkHcW0zA=/d/l',
+      url: 'https://www.crateandbarrel.com/gift-registry/michelle-denison-and-paul-darragh/r5911703',
+      alt: 'Crate &amp; Barrel registry link',
+    },
+    {
+      name: "Zola (Things not sold at Macy's or Crate & Barrel)",
+      photo: 'https://gulfbeachweddings.com/wp-content/uploads/2018/04/Zola-Logo.png',
+      url: 'https://www.zola.com/registry/paulandmichelle2019',
+      alt: "Zola (Things not sold at Macy's or Crate & Barrel) registry link",
+    },
+  ],
   tables: {
     weddingParty: {
       title: "Wedding Party",

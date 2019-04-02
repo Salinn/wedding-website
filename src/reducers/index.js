@@ -9,6 +9,7 @@ import activities from './ActivityReducer';
 import photos from './PhotosReducer';
 import tables from './TablesReducer';
 import dashboard from './DashboardReducer';
+import registries from './RegistryReducer';
 
 const rootReducer = combineReducers({
     events,
@@ -18,7 +19,8 @@ const rootReducer = combineReducers({
     activities,
     photos,
     tables,
-    dashboard
+    dashboard,
+    registries
 });
 
 export default rootReducer;

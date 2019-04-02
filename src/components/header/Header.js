@@ -54,9 +54,9 @@ const Header = (props) => {
               </Link>
           </li>
           <li className="nav-item">
-            <a target="_blank" href="https://www.zola.com/registry/paulandmichelle2019" className="nav-link col-auto">
-              Registry
-              </a>
+              <Link to="/registry" className="nav-link col-auto">
+                Registry
+              </Link>
           </li>
           <li className="nav-item">
             <Link to="/comingSoon" className="nav-link col-auto">
