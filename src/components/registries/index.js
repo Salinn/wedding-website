@@ -13,7 +13,7 @@ export default (props) => {
 
   return (
     <div className="container text-center mb-5">
-      <Title content="Where We Registried" />
+      <Title content="Where we are registered" />
       <div className="row">
         { generatedRegistries }
       </div>
