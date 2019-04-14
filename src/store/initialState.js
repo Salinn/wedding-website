@@ -413,7 +413,7 @@ export default {
       type: "groomsMen",
       image:
         "https://s3.amazonaws.com/paulmichelle2019-website-photos/masonSciotti.png",
-      name: "Mason Scioti",
+      name: "Mason Sciotti",
       bio:
         "My name is Mason Sciotti, and I've been fortunate enough to have known Paul since fourth grade. I moved to North Attleboro mid school year, and as anyone will tell you, making new friends is hard. Paul was one of my first friends in North Attleboro, and remains one of my lifelong best friends. Ever since I first saw the both of them together in high school, I've known that Paul and Michelle would marry each other. I couldn't be happier for some of my best friends. Also, called it."
     },

@@ -58,11 +58,6 @@ const Header = (props) => {
                 Registry
               </Link>
           </li>
-          <li className="nav-item">
-            <Link to="/comingSoon" className="nav-link col-auto">
-              RSVP
-              </Link>
-          </li>
         </ul>
       </div>
     </nav>
