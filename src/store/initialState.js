@@ -1,6 +1,6 @@
-import TableImage from '../components/dashboard/main/TableImage';
-import EditRow from '../components/dashboard/main/EditRow';
-import moment from 'moment'
+import TableImage from "../components/dashboard/main/TableImage";
+import EditRow from "../components/dashboard/main/EditRow";
+import moment from "moment";
 
 const today = moment();
 const ourWeddingDate = moment("2019-07-06", "YYYY-MM-DD");
@@ -12,12 +12,12 @@ const daysUntilTheWedding = ourWeddingDate.diff(today, "days");
 // const timeWorkedAtOTA = today.diff(otaStartDate, "years");
 // const timeWorkedAtMM = today.diff(mmStartDate, "months");
 
-const photosOfUs = []
-for(let i=1; i < 84; i++) {
+const photosOfUs = [];
+for (let i = 1; i < 84; i++) {
   photosOfUs.push({
     image: `https://s3.amazonaws.com/paulmichelle2019-website-photos/${i}.jpg`,
     caption: ""
-  })
+  });
 }
 
 export default {
@@ -576,6 +576,5 @@ export default {
       "Firstly, Michelle would like you to know, she was on to him! It all started the day before Paul would actually end up proposing to Michelle. The weather was a typical New England December day with freezing rain and sleet in the forecast for the entire day. Paul however was undeterred by this weather as he had already seemed particularly dedicated to going ice skating since he brought up the idea of going skating a few days ago. Michelle asked Paul that morning if he was sure he still wanted to go ice skating but Paul was absolutely sure they should still go. Suspicious!! Off they went, first eating at a Chinese restaurant that offered the most interesting of fortune cookies: Michelle’s read, “What if you got what you always wanted?” while Paul’s read, “Take the next step.” Well needless to say, Michelle knew this was the night. However, when they arrived at the Frog Pond only to learn it had closed down…due to the terrible weather… Michelle thought Paul might just improvise. But no. Slightly surprised, Michelle actually told Paul she had thought he was being very suspicious. However, Paul’s Phi Tau background came to his rescue sticking with a mantra that existed long before that day, “Deny everything.” And that is exactly what he did! Sitting on the subway with the ring stuffed into his jeans pocked he asked Michelle, “See where would I even keep a ring, look at all these pockets of my jacket.” Suffice to say, Michelle fell for it. The next morning Paul asked if she still wanted to go ice skating and Michelle believing in small miracles (it was Christmas Eve morning and her parents said they didn’t need any help prepping for that evening??) agreed; choosing her less favorite jacket since she now knew it wasn’t happening yet. Not one hour later, Paul went from holding her hands while skating backwards to suddenly dropping to one knee and pulling a ring out of his pocket asking Michelle to marry him. With a tearful yes, Michelle and Paul were ready to start planning a wedding!"
     ],
     daysUntilTheWedding
-  }
+  },
 };
-

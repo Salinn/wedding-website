@@ -20,7 +20,7 @@ const rootReducer = combineReducers({
     photos,
     tables,
     dashboard,
-    registries
+    registries,
 });
 
 export default rootReducer;
