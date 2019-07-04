@@ -51,7 +51,8 @@ export default {
       title: "Museum of Science",
       content:
         "Another one of our favorite spots is the Museum of Science! Here you can watch some cool shows from the lightning in the cage to great imax screens. You can try out all of their interactive exhibits that test your math and science skills. You can also go and learn a bit more about the human body and the animal kingdom while you are there!",
-      photo: "",
+      photo:
+        "https://www.mos.org/sites/dev-elvis.mos.org/files/images/main/uploads/page-content/visit-us_functions_trex.jpg",
       website: "https://www.mos.org/",
       price: "25"
     },
@@ -68,7 +69,8 @@ export default {
       title: "Paul's work!",
       content:
         "So much more exciting than it sounds is going to visit the building Paul works in. The 14th floor is open to the public and has a great view out into the harbor and you can even see where we are getting married from there!",
-      photo: "https://c1.staticflickr.com/6/5089/5351220903_57ab3f66df_b.jpg",
+      photo:
+        "https://images1.loopnet.com/i2/da9YFHty9tTynyQbd9fCX8-AOBxpyA4iYD54j8dGdMA/110/image.jpg",
       website: "http://www.470atlanticboston.com/",
       price: "Free"
     },
@@ -85,7 +87,8 @@ export default {
       title: "Freedom Trail",
       content:
         "Honestly have yet to go here, but it is on our list as one of the Boston main stays we have to try out!",
-      photo: "",
+      photo:
+        "https://bostonbyfoot.org/sites/default/files/%28small%29%20Little%20Feet%20%26%20Heart%20of%20the%20Freedom%20Trail%20Meeting%20Location_0.jpg",
       website: "http://www.thefreedomtrail.org/",
       price: "12-20"
     },
@@ -102,7 +105,8 @@ export default {
       title: "Harpoon Brewery",
       content:
         "One of Paul's favorite breweries in the Boston area. Paul highly recommends doing the tour where you can sample all of their beers, eat delicious pretzel and learn a little more about the process of brewing a great beer.",
-      photo: "",
+      photo:
+        "https://static.rootsrated.com/image/upload/s--g-yQLQVY--/t_rr_large_traditional/yjsjhe97t4sbq2fnelrl.jpg",
       website: "https://www.harpoonbrewery.com/",
       price: "5"
     },
@@ -110,7 +114,8 @@ export default {
       title: "Trillium Brewery",
       content:
         "A great local brewery that is one of Paul's favorites. The only tip he has is to checkout the Boston locations as the Canton one is a bit outside of Boston.",
-      photo: "",
+      photo:
+        "https://static1.squarespace.com/static/5527dc92e4b04be388ca48e4/t/5bc941040852297c292d1033/1539916055239/50thomson_exterior-7.jpg?format=1500w",
       website: "http://www.trilliumbrewing.com/",
       price: "Free"
     },
@@ -189,7 +194,7 @@ export default {
       location: {
         label: "Sacred Heart of Jesus Church",
         link:
-          "https://www.google.com/maps/place/311+River+St,+Waltham,+MA+02453/@42.3739145,-71.2299801,17z"
+          "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjKqaO5sJvjAhVkZN8KHYNPDU4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.sacredheart311.com%2F&psig=AOvVaw3cBekibMgBZniEiVfCvpHg&ust=1562333626397820"
       },
       title: "Ceremony",
       content: "Please join us at 2:30pm for our Catholic wedding mass!"
@@ -208,6 +213,21 @@ export default {
       title: "Reception",
       content:
         "We are so excited to celebrate on the lawn and pavilion tent of the Hyatt Regency Boston Harbor Hotel with all of you! Cocktail hour begins at 5:30pm on the Harbor Lawn."
+    },
+    {
+      id: 5,
+      photo:
+        "https://d9hyo6bif16lx.cloudfront.net/live/img/production/detail/menu/breakfast_breakfast-classics_big-two-do-breakfast.jpg",
+      date: "Sunday July 7th, 2019",
+      time: "9 am to 12 pm",
+      location: {
+        label: "Hyatt Regency Boston Harbor",
+        link:
+          "https://www.google.com/maps/place/101+Harborside+Dr,+Boston,+MA+02128/@42.3592641,-71.0294005,17z/"
+      },
+      title: "Breakfast",
+      content:
+        "Michelle's favorite meal of the day is breakfast! We wanted to invite you to come downstairs and join us at the Hyatt for breakfast the following day. It will be an all you can eat buffet that costs 25 dollars."
     }
   ],
   hotels: [
@@ -576,5 +596,5 @@ export default {
       "Firstly, Michelle would like you to know, she was on to him! It all started the day before Paul would actually end up proposing to Michelle. The weather was a typical New England December day with freezing rain and sleet in the forecast for the entire day. Paul however was undeterred by this weather as he had already seemed particularly dedicated to going ice skating since he brought up the idea of going skating a few days ago. Michelle asked Paul that morning if he was sure he still wanted to go ice skating but Paul was absolutely sure they should still go. Suspicious!! Off they went, first eating at a Chinese restaurant that offered the most interesting of fortune cookies: Michelle’s read, “What if you got what you always wanted?” while Paul’s read, “Take the next step.” Well needless to say, Michelle knew this was the night. However, when they arrived at the Frog Pond only to learn it had closed down…due to the terrible weather… Michelle thought Paul might just improvise. But no. Slightly surprised, Michelle actually told Paul she had thought he was being very suspicious. However, Paul’s Phi Tau background came to his rescue sticking with a mantra that existed long before that day, “Deny everything.” And that is exactly what he did! Sitting on the subway with the ring stuffed into his jeans pocked he asked Michelle, “See where would I even keep a ring, look at all these pockets of my jacket.” Suffice to say, Michelle fell for it. The next morning Paul asked if she still wanted to go ice skating and Michelle believing in small miracles (it was Christmas Eve morning and her parents said they didn’t need any help prepping for that evening??) agreed; choosing her less favorite jacket since she now knew it wasn’t happening yet. Not one hour later, Paul went from holding her hands while skating backwards to suddenly dropping to one knee and pulling a ring out of his pocket asking Michelle to marry him. With a tearful yes, Michelle and Paul were ready to start planning a wedding!"
     ],
     daysUntilTheWedding
-  },
+  }
 };
