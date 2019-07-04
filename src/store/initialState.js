@@ -194,7 +194,7 @@ export default {
       location: {
         label: "Sacred Heart of Jesus Church",
         link:
-          "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjKqaO5sJvjAhVkZN8KHYNPDU4QjRx6BAgBEAU&url=https%3A%2F%2Fwww.sacredheart311.com%2F&psig=AOvVaw3cBekibMgBZniEiVfCvpHg&ust=1562333626397820"
+          "http://1.bp.blogspot.com/-wBD96Bjg5vY/Tu5PeH1Z7EI/AAAAAAAAAII/iJEHRLgngDA/s1600/Int_wide.jpg"
       },
       title: "Ceremony",
       content: "Please join us at 2:30pm for our Catholic wedding mass!"
