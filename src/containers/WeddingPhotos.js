@@ -1,12 +1,11 @@
 //Redux
 import {connect} from 'react-redux';
 //Components
-import Photos from '../components/photos/Photos';
+import Photos from '../components/photos/WeddingPhotos';
 
 function mapStateToProps(state) {
     return {
-        title: "Some of our favorite photos",
-        photos: state.photos,
+        title: 'Our Wedding Photos',
     };
 }
 

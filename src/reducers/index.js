@@ -10,6 +10,7 @@ import photos from './PhotosReducer';
 import tables from './TablesReducer';
 import dashboard from './DashboardReducer';
 import registries from './RegistryReducer';
+import weddingPhotos from './WeddingPhotosReducer'
 
 const rootReducer = combineReducers({
     events,
@@ -21,6 +22,7 @@ const rootReducer = combineReducers({
     tables,
     dashboard,
     registries,
+    weddingPhotos
 });
 
 export default rootReducer;

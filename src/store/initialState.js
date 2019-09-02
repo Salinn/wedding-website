@@ -12,10 +12,18 @@ const daysUntilTheWedding = ourWeddingDate.diff(today, "days");
 // const timeWorkedAtOTA = today.diff(otaStartDate, "years");
 // const timeWorkedAtMM = today.diff(mmStartDate, "months");
 
-const photosOfUs = [];
+let photosOfUs = [];
+let weddingPhotos = []
 for (let i = 1; i < 84; i++) {
   photosOfUs.push({
     image: `https://s3.amazonaws.com/paulmichelle2019-website-photos/${i}.jpg`,
+    caption: ""
+  });
+}
+for (let i = 1; i < 940; i++) {
+  const photoId = i.toString().padStart(4, '0')
+  weddingPhotos.push({
+    image: `https://wedding-photos-paul-michelle-2019.s3.amazonaws.com/Michelle__Paul_Wedding/michellepaul_${photoId}.jpg`,
     caption: ""
   });
 }
@@ -328,6 +336,7 @@ export default {
     }
   ],
   photos: photosOfUs,
+  weddingPhotos,
   weddingParty: [
     {
       id: "1",

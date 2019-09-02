@@ -57,12 +57,17 @@ const Header = props => {
             </li>
             <li className="nav-item">
               <Link to="/activities" className="nav-link col-auto">
-                Activies
+                Activities
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/photos" className="nav-link col-auto">
-                Photos
+                Photos of Us
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/wedding-photos" className="nav-link col-auto">
+                Wedding Photos
               </Link>
             </li>
             <li className="nav-item">

@@ -4,11 +4,11 @@ import React from 'react';
 import Photo from "./Photo";
 import Title from "../utils/atoms/Title";
 
-const Photos = ({ photos }) => {
+const Photos = ({ photos, title }) => {
     const photoCards = photos.map((photo, index) => <Photo index={index} {...photo} />);
 
     return <div className="container text-center">
-        <Title content="Some of our favorite photos" />
+        <Title content={title} />
         <div className="row">
           <div className="card-columns">{photoCards}</div>
         </div>

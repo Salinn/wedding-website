@@ -10,6 +10,7 @@ import Dashboard from './containers/Dashboard';
 import ComingSoon from './components/ComingSoon'
 import Registry from './containers/Registry'
 import Seating from "./components/seating";
+import WeddingPhotos from './containers/WeddingPhotos'
 
 export default () => {
     return (
@@ -23,6 +24,7 @@ export default () => {
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/registry" component={Registry} />
         <Route path="/seating" component={Seating} />
+        <Route path="/wedding-photos" component={WeddingPhotos} />
         <Route path="/comingSoon" component={ComingSoon} />
       </Switch>
     );
